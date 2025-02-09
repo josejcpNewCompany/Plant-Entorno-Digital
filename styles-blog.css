@@ -686,55 +686,56 @@ footer h6{
 
 @media (width <= 480px){
 
-    /*--------------Barra-Navegación--------------*/
-    .B-Navegacion{
-        display: flex;
-        justify-content: space-between;
-        border-top: none;
-    }
+/*--------------Barra-Navegación--------------*/
+.B-Navegacion{
+    display: flex;
+    justify-content: space-between;
+    border-top: none;
+}
 
-    .B-Navegacion svg{
-        width: 1.3rem;
-        height: 1.3rem;
-    }
-    
-    .logo{
-        display: flex;
-        align-items: center;
-        padding: 1.5vh 0vw 1.5vh 3.5vw;
-    }
-    
-    .logo svg{
-        width: 7vw;
-    }
-    
-    .logo h3{
-        font-size: 4.5vw;
-        padding: 0px 0vw 0px 2vw;
-    }
-    
-    .login {
-        border: none;
-        align-items: center;
-        display: flex;
-        cursor: pointer;
-        border-bottom-left-radius: 10vw;
-        padding: 1.2vh 2vw 1.2vh 5vw;
-        transition: background-color 0.3s ease; /* Transición de color suave */
-    }
-    
-    .login h3{
-        font-size: 4vw;
-        padding: 0vh 0vw 0vh 0vw;
-        margin: 0vh 2.5vw 0vh 0vw;
-    }
-    
-    .login img{
-        width: 2rem;
-        height: 2rem;
-        border-radius: 50%;
-        margin: 0vh 0vw 0vh 0vw;
-    }
+.B-Navegacion svg{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding: 1.5vh 0vw 1.5vh 3.5vw;
+}
+
+.logo svg{
+    width: 7vw;
+}
+
+.logo h3{
+    font-size: 3.5vw;
+    padding: 0px 0vw 0px 2vw;
+}
+
+.login {
+    border: none;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    border-bottom-left-radius: 10vw;
+    padding: 1.5vh 2vw 1.5vh 5vw;
+    transition: background-color 0.3s ease; /* Transición de color suave */
+}
+
+.login h3{
+    font-size: 3vw;
+    padding: 0vh 0vw 0vh 0vw;
+    margin: 0vh 2.5vw 0vh 0vw;
+}
+
+.login img{
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+    margin: 0vh 0vw 0vh 0vw;
+}
+
 
     /*------------Barra-Navegación-iconos-----------*/
     .cont-Barra-N{
@@ -758,7 +759,7 @@ footer h6{
     }
     
     .cont-Barra-N svg{
-        width: 7vw;
+        width: 5vw;
     }
     
     .cont-Barra-N div h3{
