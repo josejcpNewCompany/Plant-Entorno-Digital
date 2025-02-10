@@ -127,11 +127,127 @@ body{
 }
 
 
-/*------------------Sec-Servicios-Populares-----------------------*/
+/*------------------areas-interes-------------------*/
 
-.separador{
-    margin: 12vh 0vw 0vh 0vw;
+.Sec2-Area-interes{
+    text-align: start;
+    margin: 10vh 2vw 5vh 2vw;
+    z-index: 0;
 }
+
+.Sec2-Area-interes h2{
+    color: #000000;
+    font-size: 3vw;
+    margin: 0vh 0vw 2.2vh 0vw;
+}
+
+.Sec2-Area-interes p{
+    color: rgb(87, 87, 87);
+    font-size: 1.3vw;
+    margin: 0vh 4vw 3vh 0vw;
+}
+
+.cont-Contenido-Areas{
+    display: block;
+    justify-content: center;
+    gap: 1vw;
+    width: 100%;
+    height: 100%;
+}
+
+.Sec2-Area-interes .cont-elemen{
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+    width: 100%;
+    height: 100%;
+}
+
+.Sec2-Area-interes .elemen{
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+    width: 100%;
+    height: 100%;
+}
+
+.Area1, .Area2, .Area3, .Area4 { 
+    border-radius: 1vw;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+}
+
+.Area1{ 
+  margin: 0vh 0vw 2vh 0vw;
+}
+
+.Area2{ 
+  margin: 0vh 0vw 0vh 0vw;
+}
+
+.Area1:hover, .Area2:hover, .Area3:hover, .Area4:hover{ 
+    opacity: 90%;
+}
+
+.Area1 img{
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+}
+
+.Area1 video {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+}
+
+.Area2 img{
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+}
+
+.Area3 img{
+    width: 60vw;
+    height: 30vh;
+    object-fit: cover;
+}
+
+.Area4 img{
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+}
+
+.Sec2-Area-interes .texto { 
+    text-align: start;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 25vh 4vw 3vh 1.5vw ;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.89));
+    color: white;
+}
+
+.Sec2-Area-interes .texto h4{
+    font-size: 1.6vw;
+    margin: 0vh 5vw 1.5vh 0vw;
+    color: white;
+}
+
+.Sec2-Area-interes .texto p{
+    font-size: 1.2vw;
+    color: rgb(221, 221, 221);
+    margin: 0vh 3vw 2vh 0vw;
+}
+
+
+
+
+/*------------------Sec-Servicios-Populares-----------------------*/
 
 .Servicios-Populares{
     text-align: start;
@@ -248,130 +364,11 @@ body{
 }
 
 
-/*------------------areas-interes-------------------*/
-
-.Sec2-Area-interes{
-    text-align: center;
-    margin: 10vh 2vw 5vh 2vw;
-    padding: 1vh 2vw 3vh 2vw;
-    z-index: 0;
-}
-
-.Sec2-Area-interes h2{
-    color: #000000;
-    font-size: 3vw;
-    margin: 0vh 0vw 2.2vh 0vw;
-}
-
-.Sec2-Area-interes p{
-    color: rgb(87, 87, 87);
-    font-size: 1.3vw;
-    margin: 0vh 4vw 3vh 0vw;
-}
-
-.cont-Contenido-Areas{
-    display: block;
-    justify-content: center;
-    gap: 1vw;
-    width: 100%;
-    height: 100%;
-}
-
-.Sec2-Area-interes .cont-elemen{
-    display: flex;
-    justify-content: center;
-    gap: 1vw;
-    width: 100%;
-    height: 100%;
-}
-
-.Sec2-Area-interes .elemen{
-    display: flex;
-    justify-content: center;
-    gap: 1vw;
-    width: 100%;
-    height: 100%;
-}
-
-.Area1, .Area2, .Area3, .Area4 { 
-    border-radius: 1vw;
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    transition: 0.3s;
-}
-
-.Area1{ 
-  margin: 0vh 0vw 2vh 0vw;
-}
-
-.Area2{ 
-  margin: 0vh 0vw 0vh 0vw;
-}
-
-.Area1:hover, .Area2:hover, .Area3:hover, .Area4:hover{ 
-    opacity: 90%;
-}
-
-.Area1 img{
-    width: 100%;
-    height: 30vh;
-    object-fit: cover;
-}
-
-.Area1 video {
-    width: 100%;
-    height: 30vh;
-    object-fit: cover;
-}
-
-.Area2 img{
-    width: 100%;
-    height: 30vh;
-    object-fit: cover;
-}
-
-.Area3 img{
-    width: 60vw;
-    height: 30vh;
-    object-fit: cover;
-}
-
-.Area4 img{
-    width: 100%;
-    height: 30vh;
-    object-fit: cover;
-}
-
-.Sec2-Area-interes .texto { 
-    text-align: start;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    padding: 25vh 4vw 3vh 1.5vw ;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.89));
-    color: white;
-}
-
-.Sec2-Area-interes .texto h4{
-    font-size: 1.6vw;
-    margin: 0vh 5vw 1.5vh 0vw;
-    color: white;
-}
-
-.Sec2-Area-interes .texto p{
-    font-size: 1.2vw;
-    color: rgb(221, 221, 221);
-    margin: 0vh 3vw 2vh 0vw;
-}
-
 
 /*------------------Contenido-blog-------------------*/
 .Sec4-Contenido-blog{
     text-align: center;
     margin: 10vh 2vw 0vh 2vw;
-    padding: 1vh 2vw 3vh 2vw;
     z-index: 0;
 }
 
@@ -485,7 +482,7 @@ body{
     font-weight: 700;
     color: rgb(255, 255, 255);
     border-radius: 6vw;
-    background: #ff0000a1;
+    background: #059600a1;
     padding: 1vh 2vw 1vh 2vw;
     margin: 0vh 0vw 0vh 0vw;
 }
@@ -626,11 +623,11 @@ footer h6{
         display: block;
         text-align: center;
         margin: 0vh 0px 0vh 0px;
-        padding: 1.5vh 0px 1.5vh 0vw;
+        padding: 1.3vh 0px 1.3vh 0vw;
     }
     
     .cont-Barra-N svg{
-        width: 3.5vw;
+        width: 4vw;
     }
     
     .cont-Barra-N div h3{
@@ -639,106 +636,12 @@ footer h6{
         padding: 0px 0px 0px 0vw;
     }
 
-/*------------------Sec-Servicios-Populares-----------------------*/
-
-
-.separador{
-    margin: 8vh 0vw 0vh 0vw;
-}
-
-
-.Servicios-Populares{
-    margin: 3vh 4vw 0vh 4vw;
-}
-
-.Servicios-Populares h2{
-    color: #000000;
-    text-align: start;
-    font-size: 7vw;
-    margin: 0vh 0vw 1vh 0vw;
-}
-
-.Servicios-Populares p{
-    text-align: start;
-    color: rgb(87, 87, 87);
-    font-size: 3.5vw;
-    margin: 0vh 0vw 2vh 0vw;
-}
-
-.servicio{
-    width: 70vw;
-    overflow: hidden;
-    border-radius: 6vw;
-    margin: 0vh 0vw 0vh 0vw;
-    padding: 0vh 0vw 0vh 0vw;
-}
-
-.servicio img{
-    width: 100%;
-    height: 25vh;
-    margin: 0vh 0vw 2vh 0vw;
-}
-
-.servicio h3{
-    color: #000000;
-    font-size: 5vw;
-    margin: 0vh 4vw 1vh 4vw;
-}
-
-.servicio samp{
-    color: rgb(0, 132, 255);
-    font-size: 4.8vw;
-    margin: 0vh 0vw 0vh 0.5vw;
-}
-
-.servicio p{
-    text-align: center;
-    font-size: 3.2vw;
-    margin: 0vh 4vw 2vh 4vw;
-}
-
-.serv2 h3{
-    color: #ffffff;
-}
-
-.serv2 samp{
-    color: rgb(0, 132, 255);
-}
-
-.serv2 p{
-    color: #c5c5c5;
-}
-
-.servicio a{
-    color: #000000;
-    text-decoration: none;
-}
-
-.servicio a:hover{
-    color: #ffffff;
-    text-decoration: none;
-}
-
-.saber-mas{
-    width: 100%;
-    font-size: 3.5vw;
-    text-align: center;
-    padding: 1.3vh 0vw 1.3vh 0vw;
-    border: 1px solid #0000002d;
-    border-radius: 6vw;
-    transition: 0.3s;
-}
-
-.saber-mas:hover{
-    background: rgb(0, 132, 255);
-}
 
 
 /*------------------areas-interes-------------------*/
 .Sec2-Area-interes{
-    text-align: center;
-    margin: 0vh 4vw 3vh 4vw;
-    padding: 0vh 0vw 0vh 0vw;
+    text-align: start;
+    margin: 8vh 4vw 4vh 4vw;
     z-index: 0;
 }
 
@@ -851,10 +754,100 @@ footer h6{
 }
 
 
+/*------------------Sec-Servicios-Populares-----------------------*/
+
+.Servicios-Populares{
+    margin: 1.5vh 4vw 0vh 4vw;
+}
+
+.Servicios-Populares h2{
+    color: #000000;
+    text-align: start;
+    font-size: 7vw;
+    margin: 0vh 0vw 1vh 0vw;
+}
+
+.Servicios-Populares p{
+    text-align: start;
+    color: rgb(87, 87, 87);
+    font-size: 3.5vw;
+    margin: 0vh 0vw 2vh 0vw;
+}
+
+.servicio{
+    width: 70vw;
+    overflow: hidden;
+    border-radius: 6vw;
+    margin: 0vh 0vw 0vh 0vw;
+    padding: 0vh 0vw 0vh 0vw;
+}
+
+.servicio img{
+    width: 100%;
+    height: 25vh;
+    margin: 0vh 0vw 2vh 0vw;
+}
+
+.servicio h3{
+    color: #000000;
+    font-size: 5vw;
+    margin: 0vh 4vw 1vh 4vw;
+}
+
+.servicio samp{
+    color: rgb(0, 132, 255);
+    font-size: 4.8vw;
+    margin: 0vh 0vw 0vh 0.5vw;
+}
+
+.servicio p{
+    text-align: center;
+    font-size: 3.2vw;
+    margin: 0vh 4vw 2vh 4vw;
+}
+
+.serv2 h3{
+    color: #ffffff;
+}
+
+.serv2 samp{
+    color: rgb(0, 132, 255);
+}
+
+.serv2 p{
+    color: #c5c5c5;
+}
+
+.servicio a{
+    color: #000000;
+    text-decoration: none;
+}
+
+.servicio a:hover{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.saber-mas{
+    width: 100%;
+    font-size: 3.5vw;
+    text-align: center;
+    padding: 1.3vh 0vw 1.3vh 0vw;
+    border: 1px solid #0000002d;
+    border-radius: 6vw;
+    transition: 0.3s;
+}
+
+.saber-mas:hover{
+    background: rgb(0, 132, 255);
+}
+
+
+
 /*------------------Contenido-blog-------------------*/
 .Sec4-Contenido-blog{
-    margin: 0vh 2vw 0vh 2vw;
-    padding: 1vh 2vw 3vh 2vw;
+    text-align: start;
+    margin: 1vh 4vw 0vh 4vw;
     z-index: 0;
 }
 

@@ -657,7 +657,7 @@ body{
     font-weight: 700;
     color: rgb(255, 255, 255);
     border-radius: 6vw;
-    background: #ff0000a1;
+    background: #059600a1;
     padding: 1vh 2vw 1vh 2vw;
     margin: 0vh 0vw 0vh 0vw;
 }
@@ -1032,11 +1032,11 @@ footer h6{
     display: block;
     text-align: center;
     margin: 0vh 0px 0vh 0px;
-    padding: 1.5vh 0px 1.5vh 0vw;
+    padding: 1.3vh 0px 1.3vh 0vw;
 }
 
 .cont-Barra-N svg{
-    width: 3.5vw;
+    width: 4vw;
 }
 
 .cont-Barra-N div h3{
@@ -1146,8 +1146,8 @@ footer h6{
 
 .Sec1-Contenido{
     text-align: start;
-    margin: 3vh 2vw 0vh 2vw;
-    padding: 0vh 2vw 0vh 2vw;
+    margin: 3vh 4vw 0vh 4vw;
+    padding: 0vh 0vw 0vh 0vw;
 }
 
 .Sec1-Contenido h2{
@@ -1223,9 +1223,9 @@ footer h6{
 
 /*------------------areas-interes-------------------*/
 .Sec2-Area-interes{
-    text-align: center;
-    margin: 3vh 2vw 0vh 2vw;
-    padding: 1vh 2vw 0vh 2vw;
+    text-align: start;
+    margin: 3vh 4vw 0vh 4vw;
+    padding: 0vh 0vw 0vh 0vw;
     z-index: 0;
 }
 
@@ -1345,8 +1345,8 @@ footer h6{
 }
 
 .Servicios-Populares h2{
-    color: #000000;
     text-align: start;
+    color: #000000;
     font-size: 7vw;
     margin: 0vh 0vw 1vh 0vw;
 }
@@ -1428,8 +1428,8 @@ footer h6{
 
 /*------------------Contenido-blog-------------------*/
 .Sec4-Contenido-blog{
-    text-align: center;
-    margin: 4vh 2vw 0vh 2vw;
+    text-align: start;
+    margin: 4vh 4vw 0vh 4vw;
     padding: 0vh 0vw 0vh 0vw;
     z-index: 0;
 }
@@ -1554,7 +1554,7 @@ footer h6{
 
 /*------------------Contenido-soporte-tecnico------------------*/
 .Contenido-soporte{
-    text-align: center;
+    text-align: start;
     margin: 4vh 4vw 0vh 4vw;
     padding: 0vh 0vw 0vh 0vw;
     z-index: 0;
