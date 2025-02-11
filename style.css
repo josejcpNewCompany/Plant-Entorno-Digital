@@ -234,8 +234,7 @@ body{
 /*------------------Contenido--------------------*/
 .Sec1-Contenido{
     text-align: center;
-    margin: 10vh 2vw 0vh 2vw;
-    padding: 1vh 2vw 3vh 2vw;
+    margin: 10vh 4vw 0vh 4vw;
     z-index: 0;
 }
 
@@ -310,8 +309,7 @@ body{
 
 .Sec2-Area-interes{
     text-align: start;
-    margin: 10vh 2vw 0vh 2vw;
-    padding: 1vh 2vw 3vh 2vw;
+    margin: 10vh 4vw 0vh 4vw;
     z-index: 0;
 }
 
@@ -526,25 +524,10 @@ body{
     text-decoration: none;
 }
 
-.saber-mas{
-    width: 100%;
-    font-size: 1.3vw;
-    text-align: center;
-    padding: 2vh 0vw 2vh 0vw;
-    border: 1px solid #0000002d;
-    border-radius: 3vw;
-    transition: 0.3s;
-}
-
-.saber-mas:hover{
-    background: rgb(0, 132, 255);
-}
-
 /*------------------Contenido-blog-------------------*/
 .Sec4-Contenido-blog{
     text-align: start;
-    margin: 10vh 2vw 0vh 2vw;
-    padding: 1vh 2vw 3vh 2vw;
+    margin: 10vh 4vw 0vh 4vw;
     z-index: 0;
 }
 
@@ -666,8 +649,7 @@ body{
 /*------------------Contenido-soporte-------------------*/
 .Contenido-soporte{
     text-align: start;
-    margin: 10vh 2vw 0vh 2vw;
-    padding: 1vh 2vw 3vh 2vw;
+    margin: 10vh 4vw 0vh 4vw;
     z-index: 0;
 }
 
@@ -1147,7 +1129,6 @@ footer h6{
 .Sec1-Contenido{
     text-align: start;
     margin: 3vh 4vw 0vh 4vw;
-    padding: 0vh 0vw 0vh 0vw;
 }
 
 .Sec1-Contenido h2{
@@ -1225,7 +1206,6 @@ footer h6{
 .Sec2-Area-interes{
     text-align: start;
     margin: 3vh 4vw 0vh 4vw;
-    padding: 0vh 0vw 0vh 0vw;
     z-index: 0;
 }
 
@@ -1412,25 +1392,10 @@ footer h6{
     text-decoration: none;
 }
 
-.saber-mas{
-    width: 100%;
-    font-size: 3.5vw;
-    text-align: center;
-    padding: 1.3vh 0vw 1.3vh 0vw;
-    border: 1px solid #0000002d;
-    border-radius: 6vw;
-    transition: 0.3s;
-}
-
-.saber-mas:hover{
-    background: rgb(0, 132, 255);
-}
-
 /*------------------Contenido-blog-------------------*/
 .Sec4-Contenido-blog{
     text-align: start;
     margin: 4vh 4vw 0vh 4vw;
-    padding: 0vh 0vw 0vh 0vw;
     z-index: 0;
 }
 
@@ -1556,7 +1521,6 @@ footer h6{
 .Contenido-soporte{
     text-align: start;
     margin: 4vh 4vw 0vh 4vw;
-    padding: 0vh 0vw 0vh 0vw;
     z-index: 0;
 }
 

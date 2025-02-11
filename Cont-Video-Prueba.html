@@ -29,11 +29,7 @@
 </head>
 <body>
   <section class="Sec4-Cont-Blog  blog-item nuevo  blog-item articulos"
-  id="articulo"
-  data-url="http://127.0.0.1:5500/blog.html/El-Futuro-de-los-Entornos-Digitaltes"
-  data-title="El Futuro de los Entornos Digitaltes"
-  data-text="El futuro de los entornos digitales es muy prometedor y nos atrevemos a predecir un crecimiento exponencial de un 90%..."
-  data-image="http://127.0.0.1:5500/blog.html/imagenes/blog/img-articulo-blog(2).jpg">
+  id="articulo" data-url="https://josejcpnewcompany.github.io/Plant-Entorno-Digital/Cont-Video-Prueba.html" data-title="Título del Artículo: Entornos Digitales Videos" data-text="Descubre lo que los Entornos Digitales Tienen para Ti" data-image="https://josejcpnewcompany.github.io/Plant-Entorno-Digital/videos-web/contenido-Desarrollo-Web-canal.mp4">
     
     <video src="videos-web/contenido-Desarrollo-Web-canal.mp4"  autoplay controls ></video>
 
@@ -55,16 +51,24 @@
           <div class="cont-botones-enlace">
             <h6>Compartir</h6>
             <button class="social-button facebook-button" id="shareBtnFB" title="Compartir en facebook">
-            <img src="iconos-imgPng-Y-logos/redes-sociales/facebook.png" alt="Facebook Logo">
+            <img src="iconos-imgPng-Y-logos/redes-sociales/facebook.png" alt="Logo Facebook">
             </button>
 
             <button class="social-button instagram-button" id="shareBtnIG" title="Compartir en instagram">
-            <img src="iconos-imgPng-Y-logos/redes-sociales/instagram.png" alt="Instagram Logo">
+            <img src="iconos-imgPng-Y-logos/redes-sociales/instagram.png" alt="Logo Instagram">
+            </button>
+            
+            <button class="social-button" id="shareBtnTW" title="Compartir en X">
+            <img src="iconos-imgPng-Y-logos/redes-sociales/X.png" alt="Logo X">
+            </button>
+
+            <button class="social-button" id="shareBtnTG" title="Compartir en Telegram">
+            <img src="iconos-imgPng-Y-logos/redes-sociales/telegram.png" alt="Telegram Logo">
             </button>
 
             <button class="social-button whatsapp-button" id="shareBtnWA" title="Compartir en WhatsApp">
-            <img src="iconos-imgPng-Y-logos/redes-sociales/whatsapp-logo-negro.png" alt="WhatsApp Logo">
-            </button>
+              <img src="iconos-imgPng-Y-logos/redes-sociales/whatsapp-logo-negro.png" alt="WhatsApp Logo">
+              </button>
           </div>
 
           </div>
@@ -109,26 +113,33 @@
 
   <script>
     //Codigo-java-script-botones-compartir-redes-sociales---------------------->
-const articulo = document.getElementById('articulo');
-const articleUrl = articulo.getAttribute('data-url');
-const articleTitle = articulo.getAttribute('data-title');
-const articleText = articulo.getAttribute('data-text');
-const articleImage = articulo.getAttribute('data-image');
+    document.addEventListener('DOMContentLoaded', () => {
+      const articulo = document.getElementById('articulo');
+      const articleUrl = encodeURIComponent(articulo.getAttribute('data-url'));
+      const articleTitle = encodeURIComponent(articulo.getAttribute('data-title'));
+      const articleText = encodeURIComponent(articulo.getAttribute('data-text'));
 
-document.getElementById('shareBtnFB').addEventListener('click', () => {
-    const facebookUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(articleUrl)}&title=${encodeURIComponent(articleTitle)}&description=${encodeURIComponent(articleText)}&picture=${encodeURIComponent(articleImage)}`;
-    window.open(facebookUrl, '_blank');
-});
+      document.getElementById('shareBtnFB').addEventListener('click', () => {
+        window.open(`https://www.facebook.com/sharer/sharer.php?u=${articleUrl}`, '_blank');
+      });
 
-document.getElementById('shareBtnIG').addEventListener('click', () => {
-    const instagramText = `${articleTitle} - ${articleText} ${articleUrl}`;
-    alert(`Puedes copiar y pegar el siguiente texto en Instagram: ${instagramText}`);
-});
+      document.getElementById('shareBtnTW').addEventListener('click', () => {
+        window.open(`https://twitter.com/intent/tweet?url=${articleUrl}&text=${articleText}`, '_blank');
+      });
 
-document.getElementById('shareBtnWA').addEventListener('click', () => {
-    const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(articleTitle)}%0A${encodeURIComponent(articleText)}%0A${encodeURIComponent(articleUrl)}`;
-    window.open(whatsappUrl, '_blank');
-});
+      document.getElementById('shareBtnWA').addEventListener('click', () => {
+        window.open(`https://api.whatsapp.com/send?text=${articleTitle}%0A${articleText}%0A${articleUrl}`, '_blank');
+      });
+
+      document.getElementById('shareBtnTG').addEventListener('click', () => {
+        window.open(`https://t.me/share/url?url=${articleUrl}&text=${articleText}`, '_blank');
+      });
+
+      document.getElementById('shareBtnIG').addEventListener('click', () => {
+        const instagramText = `${decodeURIComponent(articleTitle)} - ${decodeURIComponent(articleText)} ${decodeURIComponent(articleUrl)}`;
+        alert(`Puedes copiar y pegar el siguiente texto en Instagram: ${instagramText}`);
+      });
+    });
 
 //codigo-java-script-visualizacion-contenido---------------------------------------------
 document.querySelectorAll('.gallery-item').forEach(item => {

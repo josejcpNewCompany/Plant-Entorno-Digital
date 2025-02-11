@@ -129,7 +129,7 @@ body{
 /*------------------Area-Contacto-------------------------*/
 
 .Sec-contacto{
-    margin: 12vh 4vw 5vh 4vw;
+    margin: 12vh 4vw 0vh 4vw;
 }
 
 .Sec-contacto h1{
@@ -253,7 +253,7 @@ body{
 
 /*-----------------------------Horario-Atención-----------------------------*/
 .Sec-Horario-Atencion{
-    margin: 0vh 4vw 5vh 4vw;
+    margin: 10vh 4vw 0vh 4vw;
 }
 
 .Sec-Horario-Atencion h2{
@@ -303,11 +303,10 @@ body{
 }
 
 
-/*------------------Contenido-soporte-------------------*/
+/*------------------Contenido-soporte-Atención-----------------*/
 .Contenido-soporte{
     text-align: start;
-    margin: 0vh 2vw 0vh 2vw;
-    padding: 1vh 2vw 3vh 2vw;
+    margin: 10vh 4vw 0vh 4vw;
     z-index: 0;
 }
 
@@ -403,7 +402,7 @@ body{
 /*--------------------------------------------------------------------------*/
 
 .Sec-Politica-Seguridad{
-    margin: 3vh 4vw 0vh 4vw;
+    margin: 10vh 4vw 0vh 4vw;
 }
 
 .Sec-Politica-Seguridad a{
@@ -417,7 +416,7 @@ body{
 }
 
 .Sec-Politica-Seguridad h2{
-    font-size: 1.8vw;
+    font-size: 2vw;
     margin: 0vh 0vw 2.5vh 0vw;
 }
 
@@ -598,7 +597,7 @@ footer h6{
 /*------------------Area-Contacto-------------------------*/
 
 .Sec-contacto{
-    margin: 8vh 4vw 3vh 4vw;
+    margin: 8vh 4vw 0vh 4vw;
 }
 
 .Sec-contacto h1{
@@ -779,11 +778,10 @@ footer h6{
 
 
 
-/*------------------Contenido-soporte-tecnico------------------*/
+/*------------------Contenido-soporte-Atención-----------------*/
 .Contenido-soporte{
     text-align: start;
-    margin: 2vh 2vw 0vh 2vw;
-    padding: 1vh 2vw 3vh 2vw;
+    margin: 3vh 4vw 0vh 4vw;
     z-index: 0;
 }
 
@@ -880,7 +878,7 @@ footer h6{
 /*-----------------------Politica-Seguridad-----------------------------*/
 
 .Sec-Politica-Seguridad{
-    margin: 0vh 4vw 3vh 4vw;
+    margin: 3vh 4vw 0vh 4vw;
 }
 
 .Sec-Politica-Seguridad a{
