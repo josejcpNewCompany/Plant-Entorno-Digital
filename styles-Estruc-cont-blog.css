@@ -147,7 +147,7 @@ body{
 }
 
 .cont-descrip-articulo-Documentación-Noticia-Contenido .cont-description-articulo-Documentación-Noticia-Contenido{
-    text-align: start;
+    text-align: justify;
     margin: 2vh 1.5vw 2vh 1.5vw;
     padding: 0vh 1vw 1vh 0vw;
 }
@@ -155,14 +155,14 @@ body{
 .cont-descrip-articulo-Documentación-Noticia-Contenido .cont-description-articulo-Documentación-Noticia-Contenido h3{
         color: black;
         font-size: 2.8vw;
-        text-align: start;
+        text-align: justify;
         margin: 4vh 0vw 0.5vh 0vw;
 }
 
 .cont-descrip-articulo-Documentación-Noticia-Contenido .cont-description-articulo-Documentación-Noticia-Contenido h4{
         color: black;
         font-size: 2.3vw;
-        text-align: start;
+        text-align: justify;
         margin: 3vh 0vw 2.8vh 0vw;
 }
 
