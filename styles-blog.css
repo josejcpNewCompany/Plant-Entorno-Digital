@@ -156,7 +156,7 @@ body{
     position: absolute;
     bottom: 0;
     width: 100%;
-    padding: 6vh 0vw 4vh 2vw;
+    padding: 12vh 0vw 4vh 2vw;
     background: linear-gradient(to bottom, #00000000, #000000)
 }
 
@@ -276,39 +276,40 @@ body{
 
 /*-----------------Sec4-Contenido-Blog-------------------*/
 
-.Cont-Sec-articulos{
+.Cont-Sec{
     font-size: 1.8vw;
     margin: 0vh 4vw 8vh 4vw;
 }
 
-.Articulos{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5vw;
-    margin: 0vh 0vw 0vh 0vw;
-}
-
-.Sec-articulos{
+.Estructura-Seccion{
     display: flex;
     gap: 0.8vw;
     align-items: center;
     margin: 0vh 0vw 3vh 0vw;
 }
 
-.Sec-articulos img{
+.Estructura-Seccion img{
 width: 1.5rem;
 height: 1.5rem;
 background: none;
 }
 
-.Sec-articulos h3{
+.Estructura-Seccion h3{
     font-size: 1.3vw;
     font-weight: 800;
     color: #000000;
     margin: 0vh 0vw 0px 0px;
 }
 
-    .Sec4-Cont-Blog{
+.Articulos, .Documentaciones{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5vw;
+    margin: 0vh 0vw 0vh 0vw;
+}
+
+
+    .Estructura-Articulo-Documentacion{
         flex: 1 1 25vw;
         max-width: 30vw;
         position: relative;
@@ -321,22 +322,28 @@ background: none;
         transition: 0.3s;
     }
 
-    .Sec4-Cont-Blog:hover{
+    .Estructura-Articulo-Documentacion:hover{
         opacity: 80%;
     }
+
     
-    .cont-sec-arti{
+    .Estructura-Articulo-Documentacion a{
+        color: #000000;
+        text-decoration: none;
+    }
+    
+    .cont-sec-estructura{
         display: block;
     }
 
-    .cont-sec-arti img{ 
+    .cont-sec-estructura img{ 
     width: 100%;
     height: 20vh;
     object-fit: cover;
     background: rgb(238, 238, 238);
     }
     
-    .cont-descrip-articulo{
+    .cont-descrip-articulo-documentacion{
         display: block;
         margin: 0vh 1vw 0vh 1vw;
     }
@@ -348,12 +355,12 @@ background: none;
         margin: 0vh 0vw 1.5vh 0vw;
     }
     
-    .cont-inf-enlaces-articulo{
+    .inf-articulo-documentacion{
         display: flex;
         align-items: center;
     }
     
-    .cont-inf-enlaces-articulo img{
+    .inf-articulo-documentacion img{
         width: 2rem;
         height: 2rem;
         margin: 0px 0.8vw 0px 0px;
@@ -374,86 +381,68 @@ background: none;
         margin: 0px 0vw 0px 0vw;
     }
     
-    .cont-botones-enlace{
+    .ico-tipo-informacion{
         display: flex;
         gap: 0.8vw;
         align-items: center;
     }
 
-    .cont-botones-enlace img{
+    .ico-tipo-informacion img{
     width: 1.1rem;
     height: 1.1rem;
     background: none;
     }
     
-    .cont-botones-enlace h6{
-        font-size: 1.3vw;
-        font-weight: 800;
-        color: #000000;
-        margin: 0vh 0vw 0px 0px;
-    }
-    
-    .cont-sec-arti hr{
-        opacity: 10%;
-        margin: 0vh 0vw 0vh 0vw;
-    }
-    
-    .cont-description-articulo{
+    .cont-resumen-articulo{
         height: 100%;
-        text-align: justify;
         margin: 2vh 1vw 3vh 1vw;
         padding: 0vh 0vw 0vh 0vw;
     }
     
-    .cont-description-articulo h3{
+    .cont-resumen-articulo h3{
         color: black;
         font-size: 1.8vw;
         text-align: start;
         margin: 0vh 0vw 1.5vh 0vw;
     }
     
-    .cont-description-articulo p{
+    .cont-resumen-articulo p{
         color: rgb(88, 88, 88);
         font-size: 1.2vw;
         margin: 0vh 0vw 0vh 0vw;
     }
 
-    .Sec4-Cont-Blog a{
-        color: #000000;
-        text-decoration: none;
-    }
-
 
 /*------------------Noticias--------------------*/
 
-.contenedor2-noticia{ 
+.contenedor-noticia{ 
     border-radius: 1vw;
     position: relative;
     overflow: hidden;
     width: 28vw;
-    height: 30vh;
+    height: 35vh;
     transition: 0.3s;
 }
 
-.contenedor2-noticia{ 
+.contenedor-noticia{ 
     margin: 0vh 0vw 0vh 0vw;
 }
 
-.contenedor2-noticia a{ 
+.contenedor-noticia a{ 
     margin: 0vh 0vw 0vh 0vw;
 }
 
-.contenedor2-noticia:hover{ 
+.contenedor-noticia:hover{ 
     opacity: 90%;
 }
 
-.contenedor2-noticia img {
+.contenedor-noticia img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.contenedor2-noticia video {
+.contenedor-noticia video {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -502,34 +491,34 @@ background: none;
 
 /*------------------Contenido--------------------*/
 
-.contenedor1{ 
+.contenedor-video{ 
     border-radius: 1vw;
     position: relative;
     overflow: hidden;
-    width: 28vw;
-    height: 35vh;
+    width: 20vw;
+    height: 50vh;
     transition: 0.3s;
 }
 
-.contenedor1{ 
+.contenedor-video{ 
     margin: 0vh 0vw 0vh 0vw;
 }
 
-.contenedor1 a{ 
+.contenedor-video a{ 
     margin: 0vh 0vw 0vh 0vw;
 }
 
-.contenedor1:hover{ 
+.contenedor-video:hover{ 
     opacity: 90%;
 }
 
-.contenedor1 img {
+.contenedor-video img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.contenedor1 video {
+.contenedor-video video {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -909,39 +898,40 @@ footer h6{
 
 /*-----------------Sec4-Contenido-Blog-------------------*/
 
-.Cont-Sec-articulos{
+.Cont-Sec{
     font-size: 1.8vw;
     margin: 0vh 4vw 4vh 4vw;
 }
 
-.Articulos{
-    display: block;
-    flex-wrap: wrap;
-    gap: 1vw;
-    margin: 0vh 0vw 0vh 0vw;
-}
-
-.Sec-articulos{
+.Estructura-Seccion{
     display: flex;
     gap: 0vw;
     align-items: center;
     margin: 0vh 0vw 2vh 0vw;
 }
 
-.Sec-articulos img{
+.Estructura-Seccion img{
 width: 1rem;
 height: 1rem;
 background: none;
 }
 
-.Sec-articulos h3{
+.Estructura-Seccion h3{
     font-size: 4vw;
     font-weight: 800;
     color: #000000;
     margin: 0vh 0vw 0px 2vw;
 }
 
-    .Sec4-Cont-Blog{
+.Articulos, .Documentaciones{
+    display: block;
+    flex-wrap: wrap;
+    gap: 1vw;
+    margin: 0vh 0vw 0vh 0vw;
+}
+
+
+    .Estructura-Articulo-Documentacion{
         flex: 1 1 25vw;
         max-width: 100%;
         height: 100%;
@@ -952,18 +942,18 @@ background: none;
         padding: 0px 0px 0vh 0px;
     }
     
-    .cont-sec-arti{
+    .cont-sec-estructura{
         display: block;
     }
 
-    .cont-sec-arti img{ 
+    .cont-sec-estructura img{ 
     width: 100%;
     height: 10vh;
     object-fit: cover;
     background: rgb(238, 238, 238);
     }
     
-    .cont-descrip-articulo{
+    .cont-descrip-articulo-documentacion{
         display: block;
         margin: 1vh 2.5vw 2vh 2.5vw;
     }
@@ -975,12 +965,12 @@ background: none;
         margin: 0vh 1vw 0vh 1vw;
     }
     
-    .cont-inf-enlaces-articulo{
+    .inf-articulo-documentacion{
         display: flex;
         align-items: center;
     }
     
-    .cont-inf-enlaces-articulo img{
+    .inf-articulo-documentacion img{
         width: 1.8rem;
         height: 1.8rem;
         margin: 0px 2vw 0px 0px;
@@ -1003,45 +993,33 @@ background: none;
         text-decoration: none;
     }
     
-    .cont-botones-enlace{
+    .ico-tipo-informacion{
         display: flex;
         align-items: center;
     }
 
-    .cont-botones-enlace img{
+    .ico-tipo-informacion img{
     width: 1rem;
     height: 1rem;
     background: none;
     margin: 0vh 0vw 0px 0px;
     }
     
-    .cont-botones-enlace h6{
-        font-size: 1.3vw;
-        font-weight: 800;
-        color: #000000;
-    }
-    
-    .cont-sec-arti hr{
-        border-radius: 0vw;
-        opacity: 10%;
-        margin: 0vh 0vw 0vh 0vw;
-    }
-    
-    .cont-description-articulo{
+    .cont-resumen-articulo{
         height: 100%;
         text-align: justify;
         margin: 1.5vh 2vw 0vh 2vw;
         padding: 0vh 0vw 0vh 0vw;
     }
     
-    .cont-description-articulo h3{
+    .cont-resumen-articulo h3{
         color: black;
         font-size: 5vw;
         text-align: start;
         margin: 0vh 0vw 0.5vh 0vw;
     }
     
-    .cont-description-articulo p{
+    .cont-resumen-articulo p{
         color: rgb(88, 88, 88);
         font-size: 3.5vw;
         text-align: start;
@@ -1051,7 +1029,7 @@ background: none;
 
 /*------------------Noticias--------------------*/
 
-.contenedor2-noticia{ 
+.contenedor-noticia{ 
     border-radius: 3vw;
     position: relative;
     overflow: hidden;
@@ -1060,19 +1038,19 @@ background: none;
     transition: 0.3s;
 }
 
-.contenedor2-noticia{ 
+.contenedor-noticia{ 
     margin: 0vh 0vw 0vh 0vw;
 }
 
-.contenedor2-noticia a{ 
+.contenedor-noticia a{ 
     margin: 0vh 0vw 0vh 0vw;
 }
 
-.contenedor2-noticia:hover{ 
+.contenedor-noticia:hover{ 
     opacity: 90%;
 }
 
-.contenedor2-noticia img {
+.contenedor-noticia img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -1121,7 +1099,7 @@ background: none;
 
 /*------------------Contenido--------------------*/
 
-.contenedor1{ 
+.contenedor-video{ 
     border-radius: 3vw;
     position: relative;
     overflow: hidden;
@@ -1130,25 +1108,25 @@ background: none;
     transition: 0.3s;
 }
 
-.contenedor1{ 
+.contenedor-video{ 
     margin: 0vh 0vw 0vh 0vw;
 }
 
-.contenedor1 a{ 
+.contenedor-video a{ 
     margin: 0vh 0vw 0vh 0vw;
 }
 
-.contenedor1:hover{ 
+.contenedor-video:hover{ 
     opacity: 90%;
 }
 
-.contenedor1 img {
+.contenedor-video img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.contenedor1 video {
+.contenedor-video video {
     width: 100%;
     height: 100%;
     object-fit: cover;

@@ -135,7 +135,7 @@ body{
     z-index: 0;
 }
 
-.Sec2-Area-interes h2{
+.Sec2-Area-interes h1{
     color: #000000;
     font-size: 3vw;
     margin: 0vh 0vw 2.2vh 0vw;
@@ -275,7 +275,7 @@ body{
     overflow: hidden;
     height: 100%;
     background: #f3f3f3;
-    border-radius: 1vw;
+    border-radius: 2vw;
     margin: 0vh 0vw 0vh 0vw;
     padding: 0vh 0vw 2vh 0vw;
     transition: 0.3s;
@@ -350,26 +350,27 @@ body{
 }
 
 
-/*------------------Contenido-soporte-------------------*/
-.Contenido-soporte{
+/*------------------Contenido-Enfoques-------------------*/
+
+.Contenido-Enfoques{
     text-align: start;
     margin: 10vh 4vw 0vh 4vw;
     z-index: 0;
 }
 
-.Contenido-soporte h2{
+.Contenido-Enfoques h2{
     color: #000000;
     font-size: 3vw;
     margin: 0vh 0vw 2.2vh 0vw;
 }
 
-.Contenido-soporte p{
+.Contenido-Enfoques p{
     color: rgb(87, 87, 87);
     font-size: 1.3vw;
     margin: 0vh 4vw 3vh 0vw;
 }
 
-.cont-Contenido-soporte{
+.cont-Contenido-Enfoques{
     display: flex;
     justify-content: center;
     gap: 1vw;
@@ -393,7 +394,7 @@ body{
     height: 100%;
 }
 
-.soporte1, .soporte3, .soporte4 { 
+.enfoque1, .enfoque2, .enfoque3 { 
     border-radius: 1vw;
     position: relative;
     overflow: hidden;
@@ -402,29 +403,29 @@ body{
     transition: 0.3s;
 }
 
-.soporte1{ 
+.enfoque1{ 
     width: 80vw;
     height: 100%;
     margin: 0vh 0vw 0vh 0vw;
 }
 
-.soporte1:hover, .soporte3:hover, .soporte4:hover{ 
+.enfoque1:hover, .enfoque2:hover, .enfoque3:hover{ 
     opacity: 90%;
 }
 
-.soporte1 img, .soporte3 img, .soporte4 img{
+.enfoque1 img, .enfoque2 img, .enfoque3 img{
     width: 100%;
     height: 40vh;
     object-fit: cover;
 }
 
-.soporte1 video {
+.enfoque1 video {
     width: 100%;
     height: 50vh;
     object-fit: cover;
 }
 
-.Contenido-soporte .texto { 
+.Contenido-Enfoques .texto { 
     text-align: start;
     position: absolute;
     bottom: 0;
@@ -434,13 +435,13 @@ body{
     color: white;
 }
 
-.Contenido-soporte .texto h4{
+.Contenido-Enfoques .texto h4{
     font-size: 1.6vw;
     margin: 0vh 4vw 1.5vh 0vw;
     color: white;
 }
 
-.Contenido-soporte .texto p{
+.Contenido-Enfoques .texto p{
     font-size: 1.2vw;
     color: rgb(221, 221, 221);
     margin: 0vh 3vw 2vh 0vw;
@@ -568,37 +569,6 @@ body{
     padding: 1vh 2vw 1vh 2vw;
     margin: 0vh 0vw 0vh 0vw;
 }
-
-
-/*-------------------------Politica-Seguridad---------------------------*/
-
-.Sec-Politica-Seguridad{
-    margin: 10vh 4vw 0vh 4vw;
-}
-
-.Sec-Politica-Seguridad a{
-    color: #002fff;
-    font-size: 1.3vw;
-    text-decoration: none;
-}
-
-.Sec-Politica-Seguridad a:hover{
-    text-decoration:underline;
-}
-
-.Sec-Politica-Seguridad h2{
-    color: #000000;
-    font-size: 2vw;
-    margin: 0vh 0vw 2.5vh 0vw;
-}
-
-.Sec-Politica-Seguridad p{
-    color: rgb(85, 85, 85);
-    font-size: 1.3vw;
-    margin: 0vh 0vw 0vh 0vw;
-}
-
-
 
 /*--------------------------------------------------------------------------*/
 
@@ -758,7 +728,7 @@ footer h6{
     z-index: 0;
 }
 
-.Sec2-Area-interes h2{
+.Sec2-Area-interes h1{
     font-size: 7vw;
     margin: 0vh 0vw 1vh 0vw;
 }
@@ -850,7 +820,7 @@ footer h6{
     bottom: 0;
     width: 100%;
     padding: 25vh 4vw 3vh 1.5vw ;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.788));
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.644));
     color: white;
 }
 
@@ -904,7 +874,7 @@ footer h6{
 .servicio h3{
     color: #000000;
     font-size: 5vw;
-    margin: 0vh 4vw 1vh 4vw;
+    margin: 0vh 4vw 0.5vh 4vw;
 }
 
 .servicio samp{
@@ -916,7 +886,7 @@ footer h6{
 .servicio p{
     text-align: center;
     font-size: 3.2vw;
-    margin: 0vh 4vw 2vh 4vw;
+    margin: 1vh 4vw 2vh 4vw;
 }
 
 .serv2 h3{
@@ -942,27 +912,27 @@ footer h6{
 }
 
 
-/*------------------Contenido-soporte-tecnico------------------*/
+/*------------------Contenido-Enfoque-----------------*/
 
-.Contenido-soporte{
+.Contenido-Enfoques{
     text-align: start;
     margin: 1vh 4vw 1vh 4vw;
     z-index: 0;
 }
 
-.Contenido-soporte h2{
+.Contenido-Enfoques h2{
     color: #000000;
     font-size: 7vw;
     margin: 0vh 0vw 1vh 0vw;
 }
 
-.Contenido-soporte p{
+.Contenido-Enfoques p{
     color: rgb(87, 87, 87);
     font-size: 3.5vw;
     margin: 0vh 4vw 2vh 0vw;
 }
 
-.cont-Contenido-soporte{
+.cont-Contenido-Enfoques{
     display: block;
     justify-content: center;
     gap: 1vw;
@@ -986,7 +956,7 @@ footer h6{
     height: 100%;
 }
 
-.soporte1, .soporte3, .soporte4 { 
+.enfoque1, .enfoque2, .enfoque3 { 
     border-radius: 3vw;
     position: relative;
     overflow: hidden;
@@ -995,45 +965,45 @@ footer h6{
     transition: 0.3s;
 }
 
-.soporte1{ 
+.enfoque1{ 
     width: 100%;
     height: 100%;
     margin: 0vh 0vw 1vh 0vw;
 }
 
-.soporte1:hover, .soporte3:hover, .soporte4:hover{ 
+.enfoque1:hover, .enfoque2:hover, .enfoque3:hover{ 
     opacity: 90%;
 }
 
-.soporte1 img, .soporte3 img, .soporte4 img{
+.enfoque1 img, .enfoque2 img, .enfoque3 img{
     width: 100%;
     height: 20vh;
     object-fit: cover;
 }
 
-.soporte1 video {
+.enfoque1 video {
     width: 100%;
     height: 50vh;
     object-fit: cover;
 }
 
-.Contenido-soporte .texto { 
+.Contenido-Enfoques .texto { 
     text-align: start;
     position: absolute;
     bottom: 0;
     width: 100%;
     padding: 25vh 4vw 1vh 3vw ;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.788));
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.644));
     color: white;
 }
 
-.Contenido-soporte .texto h4{
+.Contenido-Enfoques .texto h4{
     font-size: 4vw;
     margin: 0vh 4vw 1vh 0vw;
     color: white;
 }
 
-.Contenido-soporte .texto p{
+.Contenido-Enfoques .texto p{
     font-size: 3vw;
     color: rgb(221, 221, 221);
     margin: 0vh 3vw 2vh 0vw;
@@ -1140,7 +1110,7 @@ footer h6{
     bottom: 0;
     width: 100%;
     padding: 20vh 4vw 3vh 1.5vw ;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.788));
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.644));
     color: white;
 }
 
@@ -1162,34 +1132,6 @@ footer h6{
     border-radius: 6vw;
     padding: 1vh 4vw 1vh 4vw;
     margin: 0vh 0vw 0vh 2vw;
-}
-
-
-/*-----------------------Politica-Seguridad-----------------------------*/
-
-.Sec-Politica-Seguridad{
-    margin: 3vh 4vw 0vh 4vw;
-}
-
-.Sec-Politica-Seguridad a{
-    color: #002fff;
-    font-size: 3.5vw;
-    text-decoration: none;
-}
-
-.Sec-Politica-Seguridad a:hover{
-    text-decoration:underline;
-}
-
-.Sec-Politica-Seguridad h2{
-    font-size: 4vw;
-    margin: 0vh 0vw 1vh 0vw;
-}
-
-.Sec-Politica-Seguridad p{
-    color: rgb(85, 85, 85);
-    font-size: 3.5vw;
-    margin: 0vh 0vw 0vh 0vw;
 }
 
 

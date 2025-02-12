@@ -25,6 +25,8 @@ body{
   background: rgb(78, 169, 255);
 }
 
+
+/*-------------Info--Servicio--------------------*/
 .servicio{
   margin: 0px 4vw 0px 4vw;
 }
@@ -84,8 +86,8 @@ body{
 }
 
 .servicio hr{
-  opacity: 15%;
-  margin: 5vh 0vw 5vh 0vw;
+  opacity: 0%;
+  margin: 3vh 0vw 0vh 0vw;
 }
 
   .contenedor-grande {
@@ -137,43 +139,59 @@ body{
 
 
 
-/*----------------seccicon-informacion-Detallada------------*/
+/*------------------Contenido-Beneficios------------------*/
+.cont-Beneficios{
+  display: block;
+  gap: 1vw;
+  margin: 4vh 0vw 4vh 0vw;
+}
 
-.cont-descript{
+.ico-Beneficios{
+  align-items: center;
+  display: flex;
+  margin: 0vh 0vw 3vh 0vw;
+}
+
+.ico-Beneficios h5{
+  font-size: 1.8vw;
+  color: rgb(0, 0, 0);
+  margin: 0.5vh 0vw 0vh 1vw;
+}
+
+.ico-Beneficios img{
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.cont-Beneficios p{
+  font-size: 1.3vw;
+  margin: 0px 0vw 0px 0vw;
+}
+
+.cont-Beneficios ol{
   margin: 0vh 0vw 0vh 0vw;
   padding: 0vh 0vw 0vh 0vw;
-}
-
-.cont-descript h3{
-  font-size: 2vw;
-  color: rgb(0, 0, 0);
-  margin: 0vh 0vw 1.5vh 0vw;
-}
-
-.cont-descript ul{
-  margin: 3vh 0vw 0vh 0vw;
-  padding: 3vh 0vw 3vh 0vw;
   border-radius: 1.5vw;
   list-style: none;
 }
 
-.cont-descript li{
+.cont-Beneficios li{
+  background: #eaffe5;
+  border-radius: 1vw;
+  padding: 3vh 2vw 3vh 2vw;
   font-size: 1.3vw;
-  margin: 4vh 0vw 0vh 0vw;
+  margin: 2vh 0vw 0vh 0vw;
 }
 
-.cont-descript strong{
+.cont-Beneficios strong{
   color: rgb(0, 0, 0);
   font-size: 1.3vw;
   font-weight: 600;
   margin: 4vh 0vw 0vh 0vw;
 }
 
-.cont-descript h5{
-  font-size: 1.3vw;
-  color: rgb(0, 0, 0);
-  margin: 1vh 0vw 0vh 1vw;
-}
+
+/*----------------seccicon-Detalles-Caracteristicas-----------*/
 
 .cont-parametros{
   display: block;
@@ -229,8 +247,7 @@ body{
 }
 
 
-
-
+/*------------------Contenido-Preguntas-Frecuentes------------------*/
 .faq-container {
 width: 100%;
 border-radius: 8px;
@@ -364,8 +381,6 @@ margin: 0vh 2vw 2vh 0vw;
 }
 
 
-
-
 /*---------------------------------------------------------------------*/
 
 footer { 
@@ -382,6 +397,7 @@ margin: 0vh 0vw 0vh 0vw;
 
 @media(width <= 480px){
 
+/*------------Info-Servicio--------------*/
   .servicio{
     margin: 0px 0vw 0px 0vw;
   }
@@ -441,8 +457,8 @@ margin: 0vh 0vw 0vh 0vw;
   }
   
   .servicio hr{
-    opacity: 15%;
-    margin: 5vh 0vw 5vh 0vw;
+    opacity: 0%;
+    margin: 2vh 0vw 0vh 0vw;
   }
   
     .contenedor-grande {
@@ -494,45 +510,58 @@ margin: 0vh 0vw 0vh 0vw;
     }
   
   
+/*------------------Contenido-Beneficios------------------*/
+.cont-Beneficios{
+  display: block;
+  gap: 1vw;
+  margin: 3vh 0vw 3vh 0vw;
+}
+
+.ico-Beneficios{
+  align-items: center;
+  display: flex;
+  margin: 0vh 0vw 3vh 0vw;
+}
+
+.ico-Beneficios h5{
+  font-size: 6vw;
+  color: rgb(0, 0, 0);
+  margin: 0.5vh 0vw 0vh 2vw;
+}
+
+.ico-Beneficios img{
+  width: 1.8rem;
+  height: 1.8rem;
+}
+
+.cont-Beneficios p{
+  font-size: 3.5vw;
+  margin: 0px 0vw 0px 0vw;
+}
+
+.cont-Beneficios ol{
+  margin: 0vh 0vw 0vh 0vw;
+  padding: 0vh 0vw 0vh 0vw;
+  list-style: none;
+}
+
+.cont-Beneficios li{
+  border-radius: 1vw;
+  padding: 3vh 3vw 3vh 3vw;
+  border-radius: 2.5vw;
+  font-size: 3.5vw;
+  margin: 2vh 0vw 0vh 0vw;
+}
+
+.cont-Beneficios strong{
+  color: rgb(0, 0, 0);
+  font-size: 3.5vw;
+  font-weight: 600;
+  margin: 4vh 0vw 0vh 0vw;
+}
+
   
-  /*----------------seccicon-informacion-Detallada------------*/
-  
-  .cont-descript{
-    margin: 0vh 0vw 0vh 0vw;
-    padding: 0vh 0vw 0vh 0vw;
-  }
-  
-  .cont-descript h3{
-    font-size: 2vw;
-    color: rgb(0, 0, 0);
-    margin: 0vh 0vw 1.5vh 0vw;
-  }
-  
-  .cont-descript ul{
-    margin: 3vh 0vw 0vh 0vw;
-    padding: 3vh 0vw 3vh 0vw;
-    border-radius: 1.5vw;
-    list-style: none;
-  }
-  
-  .cont-descript li{
-    font-size: 1.3vw;
-    margin: 4vh 0vw 0vh 0vw;
-  }
-  
-  .cont-descript strong{
-    color: rgb(0, 0, 0);
-    font-size: 1.3vw;
-    font-weight: 600;
-    margin: 4vh 0vw 0vh 0vw;
-  }
-  
-  .cont-descript h5{
-    font-size: 1.3vw;
-    color: rgb(0, 0, 0);
-    margin: 1vh 0vw 0vh 1vw;
-  }
-  
+  /*----------------seccicon-Detalles-Caracteristicas-----------*/
   .cont-parametros{
     display: none;
   }
@@ -552,7 +581,7 @@ margin: 0vh 0vw 0vh 0vw;
   .ico-parametros h5{
     font-size: 5vw;
     color: rgb(0, 0, 0);
-    margin: 0.5vh 0vw 0vh 1vw;
+    margin: 0.5vh 0vw 0vh 2vw;
   }
   
   .ico-parametros img{
@@ -573,9 +602,9 @@ margin: 0vh 0vw 0vh 0vw;
   }
   
   .cont-parametros li{
-    background: #f1f1f1;
     border-radius: 1vw;
-    padding: 3vh 2vw 3vh 2vw;
+    padding: 3vh 3vw 3vh 3vw;
+    border-radius: 2.5vw;
     font-size: 3.5vw;
     margin: 2vh 0vw 0vh 0vw;
   }
@@ -588,8 +617,7 @@ margin: 0vh 0vw 0vh 0vw;
   }
   
   
-  
-  
+  /*------------------Contenido-Preguntas-Frecuentes------------------*/
   .faq-container {
   width: 100%;
   border-radius: 8px;

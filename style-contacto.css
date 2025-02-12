@@ -160,11 +160,16 @@ body{
     text-decoration:underline;
 }
 
+.inf{
+    width: 100%;
+}
+
 .ico{
     gap: 1vw;
     display: flex;
     align-items: center;
     opacity: 80%;
+    margin: 2vh 0vw 0vh 0vw;
 }
 
 .ico h3{
@@ -201,6 +206,7 @@ body{
 }
 
 .redes{
+    text-align: start;
     font-size: 1.5vw;
     margin: 5vh 0vw 2.5vh 0vw;
 }
@@ -245,11 +251,11 @@ body{
 }
 
 .ubicacion iframe{
-    width: 45vw;
-    height: 48vh;
+    height: 50vh;
     border-radius: 1vw;
     background: #f1f1f1;
 }
+
 
 /*-----------------------------Horario-Atención-----------------------------*/
 .Sec-Horario-Atencion{
@@ -674,7 +680,7 @@ footer h6{
 }
 
 .cont-redes{
-    gap: 1.3vw;
+    gap: 2vw;
     display: flex;
     margin: 1.5vh 0vw 2vh 0vw;
 }
@@ -721,7 +727,7 @@ footer h6{
 
 /*-----------------------------Horario-Atención-----------------------------*/
 .Sec-Horario-Atencion{
-    margin: 0vh 4vw 3vh 4vw;
+    margin: 3vh 4vw 0vh 4vw;
 }
 
 .Sec-Horario-Atencion h2{
@@ -858,7 +864,7 @@ footer h6{
     bottom: 0;
     width: 100%;
     padding: 25vh 4vw 1vh 3vw ;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.788));
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.644));
     color: white;
 }
 
@@ -892,7 +898,7 @@ footer h6{
 }
 
 .Sec-Politica-Seguridad h2{
-    font-size: 4vw;
+    font-size: 5vw;
     margin: 0vh 0vw 1vh 0vw;
 }
 
