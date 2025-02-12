@@ -794,8 +794,9 @@ footer h6{
 
 .cont-text-img h4{
     color: white;
+    width: 80vw;
     font-size: 5vw;
-    margin: 0px 0px 1vh 0px;
+    margin: 0vh 0vw 1vh 0vw;
 }
 
 .cont-text-img p{
