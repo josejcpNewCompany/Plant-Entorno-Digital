@@ -255,7 +255,7 @@ text-align: start;
 margin: 6vh 0vw 0vh 0vw;
 }
 
-.faq-container  h2 {
+.faq-container  h5 {
 font-size: 2vw;
 color: rgb(0, 0, 0);
 margin: 0vh 0vw 1.5vh 0vw;
@@ -321,7 +321,7 @@ padding: 0vh 0vw 0vh 0vw;
 z-index: 0;
 }
 
-.publicidad h2{
+.publicidad h6{
 color: black;
 font-size: 1.5vw;
 margin: 0vh 0vw 2.2vh 0vw;
@@ -486,7 +486,7 @@ margin: 0vh 0vw 0vh 0vw;
   
     .contenedor-pequeno {
         width: 2rem;
-        height: 2.8rem;
+        height: 2rem;
         margin: 0vh 0vw 0vh 0vw;
         border-radius: 1vw;
         overflow: hidden;
@@ -625,7 +625,7 @@ margin: 0vh 0vw 0vh 0vw;
   margin: 5vh 0vw 0vh 0vw;
   }
   
-  .faq-container  h2 {
+  .faq-container  h5 {
   font-size: 6vw;
   color: rgb(0, 0, 0);
   margin: 0vh 4vw 1.5vh 4vw;
@@ -691,7 +691,7 @@ margin: 0vh 0vw 0vh 0vw;
   z-index: 0;
   }
   
-  .publicidad h2{
+  .publicidad h6{
   color: black;
   font-size: 5vw;
   margin: 0vh 0vw 2vh 0vw;
