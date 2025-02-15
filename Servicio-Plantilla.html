@@ -168,6 +168,72 @@
       </div>
     </div>
 
+    <!------------------------Contenido-Testimonios--------------------->
+    <section class="Testimonios">
+
+        <h5>Testimonios de Exito</h5>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In nam qui fugiat nulla, hic quae perferendis cumque, dolorem ea quibusdam provident, maiores sit? Voluptatem nam temporibus officia eveniet perferendis aut.</p>
+    
+        <div class="scroll-wrapper" id="wrapper1">
+          <button class="scroll-button left" id="leftButton1">‹</button>
+          <div class="scroll-container" id="scrollContainer1">
+      
+          <a href="#">
+            <div class="Testim scroll-item">
+              <img src="web-img/Profecional.jpg" alt="#">
+              <div class="descrip-Testim">
+                <h3>Usuario cliente 1</h3> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quas, exercitationem iste.</p>
+              </div>
+            </div>
+          </a>
+  
+          <a href="#">
+            <div class="Testim scroll-item">
+              <img src="web-img/Profecional.jpg" alt="#">
+              <div class="descrip-Testim">
+                <h3>Usuario cliente 2</h3> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quae dolorem eligendi voluptates! Commodi ipsa eius.</p>
+              </div>
+            </div>
+          </a>
+  
+          <a href="#">
+            <div class="Testim scroll-item">
+              <img src="web-img/Profecional.jpg" alt="#">
+              <div class="descrip-Testim">
+                <h3>Usuario cliente 3</h3> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quas, exercitationem iste.</p>
+              </div>
+            </div>
+          </a>
+  
+          <a href="#">
+            <div class="Testim scroll-item">
+              <img src="web-img/Profecional.jpg" alt="#">
+              <div class="descrip-Testim">
+                <h3>Usuario cliente 4</h3> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quae dolorem eligendi voluptates! Commodi ipsa eius.</p>
+              </div>
+            </div>
+          </a>
+  
+          <a href="#">
+            <div class="Testim scroll-item">
+              <img src="web-img/Profecional.jpg" alt="#">
+              <div class="descrip-Testim">
+                <h3>Usuario cliente 5</h3> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet quas, exercitationem iste.</p>
+              </div>
+            </div>
+          </a>
+      
+          </div>
+          <button class="scroll-button right" id="rightButton1">›</button>
+        </div>
+    
+    </section>
+
     <!----------------------Contenido-Publicidad------------------------>
     <section class="publicidad">
 
@@ -237,6 +303,54 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+
+//codigo-java-scrip-barra-scroll-contenido
+function initializeScrollButtons(wrapperId, containerId, leftButtonId, rightButtonId) {
+    const scrollContainer = document.getElementById(containerId);
+    const leftButton = document.getElementById(leftButtonId);
+    const rightButton = document.getElementById(rightButtonId);
+
+    function scrollLeft() {
+        scrollContainer.scrollBy({ left: -200, behavior: 'smooth' });
+    }
+
+    function scrollRight() {
+        scrollContainer.scrollBy({ left: 200, behavior: 'smooth' });
+    }
+
+    leftButton.addEventListener('click', scrollLeft);
+    rightButton.addEventListener('click', scrollRight);
+
+    function updateLeftButtonVisibility() {
+        if (scrollContainer.scrollLeft < 8) {
+            leftButton.style.display = 'none';
+        } else {
+            leftButton.style.display = 'block';
+        }
+    }
+
+    function updateRightButtonVisibility() {
+        if (scrollContainer.scrollWidth - scrollContainer.clientWidth - scrollContainer.scrollLeft < 8) {
+            rightButton.style.display = 'none';
+        } else {
+            rightButton.style.display = 'block';
+        }
+    }
+
+    scrollContainer.addEventListener('scroll', () => {
+        updateLeftButtonVisibility();
+        updateRightButtonVisibility();
+    });
+
+    // Initial check
+    updateLeftButtonVisibility();
+    updateRightButtonVisibility();
+}
+
+// Inicializa cada contenedor de scroll con sus botones
+initializeScrollButtons('wrapper1', 'scrollContainer1', 'leftButton1', 'rightButton1');
+// Puedes inicializar más contenedores aquí
 
 
 

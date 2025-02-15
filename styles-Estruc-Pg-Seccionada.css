@@ -246,45 +246,6 @@ p{
     padding: 0vh 0vw 0vh 0vw;
   }
 
-
-
-  .cont-Usuarios {
-    display: flex;
-    align-items: center;
-    gap: 2vw;
-    overflow: hidden;
-    margin: 4vh 0vw 1.5vh 0vw;
-    padding: 0vh 2vw 0vh 0vw;
-    border-radius: 2vw;
-    background: rgb(243, 243, 243);
-  }
-
-  .cont-Usuarios img{
-    width: 20rem;
-    height: 20rem;
-    background: rgb(238, 238, 238);
-  }
-
-  .cont-descripcion-usuario h4{
-    font-size: 2vw;
-    margin: 0vh 0vw 3vh 0vw;
-  }
-
-  .cont-descripcion-usuario h5{
-    font-size: 1.3vw;
-    margin: 3vh 0vw 0vh 0vw;
-  }
-
-  .cont-descripcion-usuario p{
-    margin: 1.5vh 0vw 0vh 0vw;
-  }
-
-  .cont-descripcion-usuario strong{
-    color: black;
-    font-weight: 800;
-    margin: 0vh 0vw 0vh 0vw;
-  }
-
   /*---------------------------------------------------------------------*/
 
 .gallery-item {
@@ -393,7 +354,7 @@ p{
   background: #f3f3f3;
   border-radius: 1vw;
   margin: 0vh 0vw 0vh 0vw;
-  padding: 0vh 0vw 2vh 0vw;
+  padding: 0vh 0vw 1.5vh 0vw;
   transition: 0.3s;
 }
 
