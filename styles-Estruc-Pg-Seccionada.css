@@ -80,7 +80,7 @@ p{
     height: 2rem;
     width: 2rem;
     border-radius: 50%;
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     background: rgb(238, 238, 238);
   }
 
@@ -128,8 +128,8 @@ p{
 
 
   .puntos-clave{
-    background: rgb(242, 255, 242);
-    border-left: 3px solid rgb(0, 119, 0);
+    background: rgb(242, 254, 255);
+    border-left: 3px solid rgb(0, 98, 179);
     padding: 4vh 0vw 1vh 0vw;
     margin: 5vh 0vw 5vh 0vw;
   }
