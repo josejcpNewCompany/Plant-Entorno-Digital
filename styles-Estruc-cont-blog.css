@@ -383,7 +383,7 @@ footer h6{
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin: 1vh 2vw 1vh 2vw;
+            margin: 1vh 0vw 1vh 0vw;
         }
         
         .cont-inf-enlaces-articulo-Documentación-Noticia-Contenido{
