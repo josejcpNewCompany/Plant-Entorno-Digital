@@ -295,7 +295,7 @@ body{
 
 .texto h4{
     font-size: 1.6vw;
-    margin: 0vh 4vw 1.5vh 0vw;
+    margin: 3.5vh 4vw 1.5vh 0vw;
     color: white;
 }
 
@@ -303,6 +303,16 @@ body{
     font-size: 1.2vw;
     color: rgb(221, 221, 221);
     margin: 0vh 2vw 0vh 0vw;
+}
+
+.texto small{
+    font-size: 1.1vw;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    border-radius: 6vw;
+    background: #059600a1;
+    padding: 1vh 2vw 1vh 2vw;
+    margin: 0vh 0vw 0vh 0vw;
 }
 
 /*------------------areas-interes-------------------*/
@@ -1196,7 +1206,7 @@ footer h6{
 
 .Sec1-Contenido .texto h4{
     font-size: 5vw;
-    margin: 0vh 0vw 1vh 0vw;
+    margin: 3vh 0vw 1vh 0vw;
     color: white;
 }
 
@@ -1206,6 +1216,13 @@ footer h6{
     margin: 0vh 2vw 0vh 0vw;
 }
 
+.texto small{
+    font-size: 2.5vw;
+    font-weight: 700;
+    border-radius: 6vw;
+    padding: 1vh 4vw 1vh 4vw;
+    margin: 0vh 0vw 0vh 0vw;
+}
 
 /*------------------areas-interes-------------------*/
 .Sec2-Area-interes{
