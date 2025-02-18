@@ -38,7 +38,7 @@ p{
 
   .Estruc-Pg-Seccionada hr{
     margin: 2vh 4vw 0vh 4vw;
-    opacity: 0%;
+    opacity: 20%;
   }
 
   /*-----------Cabezera-Pg-Seccionada-----------*/
@@ -426,8 +426,8 @@ p{
       border: none;
       font-size: 2.5vw;
       border-radius: 50%;
-      width: 3.5rem;
-      height: 3.5rem;
+      width: 3rem;
+      height: 3rem;
       margin: 0vh -2vw 0vh -2vw;
       top: 50%;
       z-index: 1;
@@ -449,7 +449,7 @@ p{
   /*-----------Descripcion-Indice-Pg-Seccionada-----------*/
 
   .indice-busqueda{
-    width: 50vw;
+    width: 55vw;
     margin: 4vh 0vw 0vh 2.5vw;
   }
 
