@@ -38,7 +38,7 @@ p{
 
   .Estruc-Pg-Seccionada hr{
     margin: 2vh 4vw 0vh 4vw;
-    opacity: 25%;
+    opacity: 0%;
   }
 
   /*-----------Cabezera-Pg-Seccionada-----------*/
@@ -72,7 +72,7 @@ p{
 
   .inf-p h1{
     color: rgb(0, 0, 0);
-    font-size: 2.4vw;
+    font-size: 2vw;
     margin: 0vh 0vw 0vh 1.5vw;
   }
 
@@ -89,7 +89,7 @@ p{
     background: rgb(0, 0, 0);
     border: none;
     cursor: pointer;
-    padding: 2vh 2vw 2vh 2vw;
+    padding: 2vh 3vw 2vh 3vw;
     border-radius: 3vw;
     font-size: 1.2vw;
     transition: 0.3s;
@@ -128,8 +128,8 @@ p{
 
 
   .puntos-clave{
-    background: rgb(242, 254, 255);
-    border-left: 3px solid rgb(0, 98, 179);
+    background: rgb(245, 255, 244);
+    border-left: 3px solid rgb(0, 141, 19);
     padding: 4vh 0vw 1vh 0vw;
     margin: 5vh 0vw 5vh 0vw;
   }
@@ -140,7 +140,7 @@ p{
   }
 
   .Demostrativo{
-    background: rgb(245, 245, 245);
+    background: rgb(248, 248, 248);
     border-left: 3px solid rgb(0, 0, 0);
   }
 
@@ -628,7 +628,7 @@ p{
 
   .Estruc-Pg-Seccionada hr{
     margin: 0vh 4vw 0vh 4vw;
-    opacity: 30%;
+    opacity: 20%;
   }
 
   /*-----------Cabezera-Pg-Seccionada-----------*/
@@ -686,14 +686,14 @@ p{
     margin: 0vh 0vw 0vh 0vw;
   }
 
-  .descrip-Pg-Seccionada h3{
+  .descrip-Pg-Seccionada h2{
     font-size: 6vw;
     margin: 3vh 0vw 0vh 0vw;
   }
 
-  .descrip-Pg-Seccionada h2{
+  .descrip-Pg-Seccionada h3{
     font-size: 6vw;
-    margin: 5vh 0vw 0vh 0vw;
+    margin: 3vh 0vw 0vh 0vw;
   }
 
   .descrip-Pg-Seccionada h4{
