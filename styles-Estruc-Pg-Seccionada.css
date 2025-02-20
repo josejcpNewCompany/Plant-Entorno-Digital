@@ -751,6 +751,7 @@ p{
   }
 
   .puntos-clave ul, ol{
+    font-size: 3.5vw;
     margin: 0vh 0vw 0vh 0vw;
   }
 
