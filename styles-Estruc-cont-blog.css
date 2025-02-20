@@ -220,6 +220,10 @@ body{
     padding: 0vh 0vw 0vh 0vw;
   }
 
+.unitario img{
+    min-height: 40vh;
+}
+
 
 .indice{
     font-size: 1.3vw;
@@ -551,6 +555,10 @@ footer h6{
     border-radius: 3vw;
     background: rgb(238, 238, 238);
     padding: 0vh 0vw 0vh 0vw;
+  }
+
+  .unitario img{
+    min-height: 30vh;
   }
     
     
