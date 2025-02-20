@@ -192,16 +192,12 @@ p{
     flex: 1 1 25vw;
     max-width: 23.5vw;
     width: 100%;
-    min-height: 30vh;
+    min-height: 100%;
     border-radius: 1.5vw;
     text-align: start;
     background: rgb(243, 243, 243);
-    padding: 0vh 0vw 4vh 0vw;
+    padding: 0vh 0vw 2vh 0vw;
     transition: 0.3s;
-  }
-
-  .icono{
-    text-align: center;
   }
 
   .recurso:hover{
@@ -212,13 +208,6 @@ p{
     height: 15vh;
     width: 100%;
     object-fit: cover;
-  }
-
-  .icono img{
-    height: 2rem;
-    width: 2rem;
-    object-fit: contain;
-    margin: 3vh 0vw 0vh 0vw;
   }
 
   .recurso h5{
@@ -239,6 +228,30 @@ p{
     font-weight: 800;
     margin: 0vh 1.5vw 0vh 1.5vw;
   }
+
+
+  .icono{
+    overflow: none;
+    max-width: 17vw;
+    min-height: 100%;
+    text-align: center;
+    padding: 0vh 0vw 2vh 0vw;
+  }
+
+  .icono h5{
+    width: 100%;
+    color: black;
+    font-size: 1.3vw;
+    margin: 2vh 0vw 0vh 0vw;
+  }
+
+  .icono img{
+    height: 2rem;
+    width: 2rem;
+    object-fit: contain;
+    margin: 3vh 0vw 0vh 0vw;
+  }
+
 
 
   .cont-Imagenes-videos-acopladas{
