@@ -317,7 +317,7 @@ transform: rotate(90deg);
 
 .Testimonios{
   text-align: start;
-  margin: 8vh 0vw 0vh 0vw;
+  margin: 5vh 4vw 0vh 4vw;
 }
 
 .Testimonios h5{
@@ -332,22 +332,17 @@ transform: rotate(90deg);
   margin: 0vh 0vw 4vh 0vw;
 }
 
-.Testimonios a{
-  text-decoration: none;
-}
-
 .Testim{
   display: flex;
   width: 29.3vw;
-  height: 100%;
   background: #f3f3f3;
   border-radius: 1vw;
   margin: 0vh 0vw 0vh 0vw;
-  padding: 0vh 0vw 1.5vh 0vw;
+  padding: 0vh 0vw 2vh 0vw;
   transition: 0.3s;
 }
 
-.Testim:hover, .serv3:hover{
+.Testim:hover{
   background: #ececec;
 }
 
@@ -372,15 +367,6 @@ transform: rotate(90deg);
   margin: 1.8vh 2vw 0vh 2vw;
 }
 
-.Testim a{
-  color: #000000;
-  text-decoration: none;
-}
-
-.Testim a:hover{
-  color: #ffffff;
-  text-decoration: none;
-}
 
 
 /*--------------------------------------------------------------------------*/
@@ -805,8 +791,7 @@ margin: 0vh 0vw 0vh 0vw;
   }
   
 
-  /*------------------Sec-Testimonios-----------------------*/
-
+/*------------------Sec-Testimonios-----------------------*/
 .Testimonios{
   text-align: start;
   margin: 3vh 4vw 0vh 4vw;
@@ -824,15 +809,10 @@ margin: 0vh 0vw 0vh 0vw;
   margin: 0vh 0vw 2vh 0vw;
 }
 
-.Testimonios a{
-  text-decoration: none;
-}
-
 .Testim{
   align-items: center;
   display: flex;
   width: 80vw;
-  height: 100%;
   background: #f3f3f3;
   border-radius: 3vw;
   margin: 0vh 0vw 0vh 0vw;
@@ -864,17 +844,6 @@ margin: 0vh 0vw 0vh 0vw;
   font-size: 3.5vw;
   margin: 0vh 3vw 1vh 4vw;
 }
-
-.Testim a{
-  color: #000000;
-  text-decoration: none;
-}
-
-.Testim a:hover{
-  color: #ffffff;
-  text-decoration: none;
-}
-
 
 /*--------------------------------------------------------------------------*/
 

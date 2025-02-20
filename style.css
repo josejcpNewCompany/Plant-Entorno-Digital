@@ -246,7 +246,7 @@ body{
 .Sec1-Contenido p{
     color: rgb(87, 87, 87);
     font-size: 1.3vw;
-    margin: 0vh 4vw 5vh 4vw;
+    margin: 0vh 0vw 5vh 0vw;
 }
 
 .cont-Contenido{
@@ -331,7 +331,7 @@ body{
 .Sec2-Area-interes p{
     color: rgb(87, 87, 87);
     font-size: 1.3vw;
-    margin: 0vh 4vw 3vh 0vw;
+    margin: 0vh 0vw 3vh 0vw;
 }
 
 .cont-Contenido-Areas{
