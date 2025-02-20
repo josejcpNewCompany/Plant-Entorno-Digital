@@ -192,7 +192,7 @@ p{
     flex: 1 1 25vw;
     max-width: 23.5vw;
     width: 100%;
-    min-height: 40vh;
+    min-height: 35vh;
     border-radius: 1.5vw;
     text-align: start;
     background: rgb(243, 243, 243);
@@ -215,27 +215,11 @@ p{
   }
 
   .img-canal-usuario img{
-    height: 5rem;
-    width: 5rem;
+    height: 3rem;
+    width: 3rem;
     border-radius: 50%;
     object-fit: cover;
     margin: 3vh 0vw 0vh 0vw;
-  }
-
-  .WhatsApp{
-    background: linear-gradient(to bottom, rgb(142, 255, 132), rgb(218, 255, 187));
-  }
-
-  .Youtube{
-    background: linear-gradient(to bottom, rgb(255, 109, 109), rgb(255, 201, 180));
-  }
-
-  .Facebook{
-    background: linear-gradient(to bottom, rgb(132, 185, 255), rgb(187, 230, 255));
-  }
-
-  .Instagram{
-    background: linear-gradient(to bottom, rgb(255, 132, 132), rgb(255, 183, 245));
   }
 
   .recurso h5{
@@ -807,7 +791,7 @@ p{
     min-height: 30vh;
     border-radius: 3vw;
     text-align: start;
-    padding: 0vh 0vw 3vh 0vw;
+    padding: 0vh 0vw 2vh 0vw;
     margin: 0vh 0vw 0.5vh 0vw;
     transition: 0.3s;
   }
@@ -827,8 +811,8 @@ p{
   }
 
   .img-canal-usuario img{
-    height: 3.5rem;
-    width: 3.5rem;
+    height: 2.5rem;
+    width: 2.5rem;
     border-radius: 50%;
     object-fit: cover;
     margin: 2vh 0vw 0vh 0vw;
@@ -844,7 +828,7 @@ p{
   .recurso h5{
     width: 35vw;
     color: black;
-    font-size: 5vw;
+    font-size: 4vw;
     margin: 1.5vh 2.8vw 0vh 2.8vw;
   }
 
