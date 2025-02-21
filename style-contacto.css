@@ -45,7 +45,8 @@ body{
 
 .B-Navegacion svg{
     width: 1.2rem;
-    height: 1.2rem;
+    min-width: 1.3vw;
+    max-width: 1.2rem;
 }
 
 .logo{
@@ -64,7 +65,8 @@ body{
 
 .logo svg{
     width: 1.5rem;
-    height: 1.5rem;
+    min-width: 1.8vw;
+    max-width: 1.5rem;
 }
 
 .login {
@@ -89,7 +91,8 @@ body{
 .login img{
     background-color: rgb(255, 255, 255); /* Color del botón */
     width: 1.5rem;
-    height: 1.5rem;
+    min-width: 1.8vw;
+    max-width: 1.5rem;
     border-radius: 10vw;
     margin: 0vh 0vw 0vh 0vw;
 }
@@ -178,8 +181,9 @@ body{
 }
 
 .ico img{
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.3rem;
+    min-width: 1.5vw;
+    max-width: 1.3rem;
 }
 
 .inf hr{
@@ -202,7 +206,8 @@ body{
 
 .ico-inf img{
     width: 1.3rem;
-    height: 1.3rem;
+    min-width: 1.5vw;
+    max-width: 1.3rem;
 }
 
 .redes{
@@ -231,8 +236,9 @@ body{
 }
 
 .ico-redes img{
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.3rem;
+    min-width: 1.5vw;
+    max-width: 1.3rem;
     padding: 2vh 1vw 2vh 1vw;
     border-radius: 50%;
     background: rgb(245, 245, 245);
@@ -252,6 +258,8 @@ body{
 
 .ubicacion iframe{
     height: 50vh;
+    min-width: 50vw;
+    max-width: 30vw;
     border-radius: 1vw;
     background: #f1f1f1;
 }
@@ -290,7 +298,8 @@ body{
 
 .ico-horario-atencion img, .ico-horario-aten-espacial img{
     width: 3rem;
-    height: 3rem;
+    min-width: 3.5vw;
+    max-width: 3rem;
     margin: 0vh 0vw 3vh 0vw;
 }
 
@@ -405,26 +414,6 @@ body{
     margin: 0vh 3vw 2vh 0vw;
 }
 
-.cont-img-seccion{
-    display: flex;
-    align-items: center;
-    margin: 0vh 0vw 2.5vh 0vw;
-}
-
-.cont-img-seccion h3{
-    font-size: 1.2vw;
-    margin: 0vh 0vw 0vh 0vw;
-}
-
-.cont-img-seccion img{
-    background: rgb(238, 238, 238);
-    width: 1.5rem;
-    height: 1.5rem;
-    border-radius: 50%;
-    margin: 0vh 1vw 0vh 0vw;
-    padding: 0.3rem 0.3rem 0.3rem 0.3rem;
-}
-
 
 
 /*--------------------------------------------------------------------------*/
@@ -470,77 +459,6 @@ footer h6{
 
 @media (width <= 912px){
 
-    /*--------------Barra-Navegación--------------*/
-    .B-Navegacion{
-        display: flex;
-        justify-content: space-between;
-        border-top: 2px solid rgb(228, 228, 228);
-    }
-    
-    .logo{
-        display: flex;
-        align-items: center;
-        padding: 0px 0vw 0px 3.5vw;
-    }
-    
-    .logo svg{
-        width: 6vw;
-    }
-    
-    .logo h3{
-        font-size: 3.5vw;
-        padding: 0px 0vw 0px 2vw;
-    }
-    
-    .Login{
-        display: flex;
-        align-items: center;
-        border-bottom-left-radius: 4vw;
-        padding: 0px 3.5vw 0px 3vw;
-    }
-    
-    .Login svg{
-        width: 6vw;
-    }
-    
-    .Login h3{
-        font-size: 3.5vw;
-        padding: 0px 4vw 0px 0vw;
-    }
-    
-    /*------------Barra-Navegación-iconos-----------*/
-    .cont-Barra-N{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        gap: 2vw;
-        position: fixed;
-        width: 100%;
-        bottom: 0;
-        background: rgb(255, 255, 255);
-        border-top: 2px solid rgb(228, 228, 228);
-    }
-    
-    .cont-Barra-N div{
-        display: block;
-        text-align: center;
-        margin: 0vh 0px 0vh 0px;
-        padding: 1.5vh 0px 1.5vh 0vw;
-    }
-    
-    .cont-Barra-N svg{
-        width: 6vw;
-    }
-    
-    .cont-Barra-N div h3{
-        font-size: 3vw;
-        margin: 0px 0px 0px 0px;
-        padding: 0px 0px 0px 0vw;
-    }
-}
-
-@media (width <= 480px){
-
 /*--------------Barra-Navegación--------------*/
 .B-Navegacion{
     display: flex;
@@ -550,7 +468,8 @@ footer h6{
 
 .B-Navegacion svg{
     width: 1.2rem;
-    height: 1.2rem;
+    min-width: 1.3vw;
+    max-width: 1.2rem;
 }
 
 .logo{
@@ -560,7 +479,9 @@ footer h6{
 }
 
 .logo svg{
-    width: 7vw;
+    width: 1.2rem;
+    min-width: 1.3vw;
+    max-width: 1.2rem;
 }
 
 .logo h3{
@@ -586,7 +507,8 @@ footer h6{
 
 .login img{
     width: 1.2rem;
-    height: 1.2rem;
+    min-width: 1.3vw;
+    max-width: 1.2rem;
     border-radius: 50%;
     margin: 0vh 0vw 0vh 0vw;
 }
@@ -613,7 +535,9 @@ footer h6{
 }
 
 .cont-Barra-N svg{
-    width: 4vw;
+    width: 1.1rem;
+    min-width: 1.2vw;
+    max-width: 1.1rem;
 }
 
 .cont-Barra-N div h3{
@@ -669,8 +593,9 @@ footer h6{
 }
 
 .ico img{
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.2rem;
+    min-width: 1.3vw;
+    max-width: 1.2rem;
 }
 
 .inf hr{
@@ -693,7 +618,8 @@ footer h6{
 
 .ico-inf img{
     width: 1.2rem;
-    height: 1.2rem;
+    min-width: 1.3vw;
+    max-width: 1.2rem;
 }
 
 .redes{
@@ -722,7 +648,8 @@ footer h6{
 
 .ico-redes img{
     width: 1.2rem;
-    height: 1.2rem;
+    min-width: 1.3vw;
+    max-width: 1.2rem;
     padding: 1vh 2vw 1vh 2vw;
     border-radius: 50%;
     background: rgb(245, 245, 245);
@@ -741,8 +668,9 @@ footer h6{
 }
 
 .ubicacion iframe{
-    width: 100%;
     height: 25vh;
+    min-width: 100%;
+    max-width: 100%;
     border-radius: 1vw;
     background: #f1f1f1;
 }
@@ -780,8 +708,9 @@ footer h6{
 }
 
 .ico-horario-atencion img, .ico-horario-aten-espacial img{
-    width: 3rem;
-    height: 3rem;
+    width: 5rem;
+    min-width: 3.8vw;
+    max-width: 5rem;
     margin: 0vh 2vw 0vh 2vw;
 }
 
@@ -900,25 +829,6 @@ footer h6{
     font-size: 3vw;
     color: rgb(221, 221, 221);
     margin: 0vh 3vw 2vh 0vw;
-}
-
-.cont-img-seccion{
-    display: flex;
-    align-items: center;
-    margin: 0vh 0vw 1.5vh 0vw;
-}
-
-.cont-img-seccion img{
-    width: 1rem;
-    height: 1rem;
-    border-radius: 50%;
-    margin: 0vh 1.5vw 0vh 1vw;
-}
-
-.cont-img-seccion h3{
-    width: 30vw;
-    font-size: 2.5vw;
-    margin: 0vh 0vw 0vh 0vw;
 }
 
 

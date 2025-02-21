@@ -77,8 +77,12 @@ p{
   }
 
   .inf-p img{
-    height: 2rem;
     width: 2rem;
+    min-width: 2.5vw;
+    max-width: 2rem;
+    height: 2rem;
+    min-height: 2.5vw;
+    max-height: 2rem;
     border-radius: 50%;
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
     background: rgb(238, 238, 238);
@@ -134,7 +138,7 @@ p{
   .puntos-clave{
     background: rgb(245, 255, 244);
     border-left: 3px solid rgb(0, 141, 19);
-    padding: 4vh 2vw 1vh 0vw;
+    padding: 4vh 2vw 1vh 2vw;
     margin: 5vh 0vw 5vh 0vw;
   }
 
@@ -154,6 +158,7 @@ p{
   }
 
   .puntos-clave ul, ol{
+    font-size: 1.3vw;
     margin: 0vh 0vw 0vh 0vw;
   }
 
@@ -246,8 +251,9 @@ p{
   }
 
   .icono img{
-    height: 2rem;
     width: 2rem;
+    min-width: 2.5vw;
+    max-width: 2rem;
     object-fit: contain;
     margin: 3vh 0vw 0vh 0vw;
   }
@@ -278,8 +284,12 @@ p{
   }
 
   .canal img{
-    height: 5rem;
     width: 5rem;
+    min-width: 5.5vw;
+    max-width: 5rem;
+    height: 5rem;
+    min-height: 5.5vw;
+    max-height: 5rem;
     border-radius: 50%;
     object-fit: cover;
     margin: 3vh 0vw 0vh 0vw;
@@ -442,7 +452,11 @@ p{
 
 .Testim img{
   width: 3rem;
+  min-width: 3.5vw;
+  max-width: 3rem;
   height: 3rem;
+  min-height: 3.5vw;
+  max-height: 3rem;
   border-radius: 50%;
   object-fit: cover;
   margin: 3vh 0vw 0vh 2vw;
@@ -494,8 +508,12 @@ p{
       border: none;
       font-size: 2.5vw;
       border-radius: 50%;
-      width: 3rem;
-      height: 3rem;
+      width: 2rem;
+      min-width: 3.5vw;
+      max-width: 2rem;
+      height: 2rem;
+      min-height: 3.5vw;
+      max-height: 2rem;
       margin: 0vh -2vw 0vh -2vw;
       top: 50%;
       z-index: 1;
@@ -531,7 +549,8 @@ p{
   }
 
   .indice-busqueda ul{
-    margin: 0vh 0vw 0vh -1.5vw;
+    font-size: 1.3vw;
+    margin: 0vh 0vw 0vh 0vw;
   }
 
   .indice-busqueda li{
@@ -575,7 +594,7 @@ p{
   background-color: rgba(255, 255, 255, 0);
   border: none;
   outline: none;
-  padding: 12px;
+  padding: 1vw;
   font-size: 18px;
   cursor: pointer;
   transition: background-color 0.3s;
@@ -597,7 +616,7 @@ p{
   
   .faq-item.open .faq-answer {
   max-height: 500px; /* Ajustar según el contenido */
-  padding: 10px;
+  padding: 1vw;
   }
   
   .faq-item.open .faq-question .arrow {
@@ -827,10 +846,6 @@ p{
     transition: 0.3s;
   }
 
-  .icono{
-    text-align: center;
-  }
-
   .recurso:hover{
     opacity: 80%;
   }
@@ -839,12 +854,6 @@ p{
     height: 15vh;
     width: 100%;
     object-fit: cover;
-  }
-
-  .icono img{
-    height: 1.5rem;
-    width: 1.5rem;
-    margin: 2vh 0vw 0vh 0vw;
   }
 
   .recurso small{
@@ -864,6 +873,45 @@ p{
   .recurso p{
     font-size: 3.5vw;
     margin: 1.5vh 3.5vw 0vh 3.5vw;
+  }
+
+
+  .icono{
+    text-align: center;
+  }
+
+  .icono img{
+    height: 1.5rem;
+    width: 1.5rem;
+    margin: 2vh 0vw 0vh 0vw;
+  }
+
+
+  .canal{
+    text-align: center;
+    min-width: 44vw;
+  }
+
+  .canal img{
+    height: 3.5rem;
+    width: 3.5rem;
+    margin: 2vh 0vw 0vh 0vw;
+  }
+
+  .canal h5{
+    width: 100%;
+    color: black;
+    font-size: 3.5vw;
+    margin: 1vh 0vw 1vh 0vw;
+  }
+
+  .canal span{
+    width: 100%;
+    color: rgb(0, 89, 255);
+    font-size: 4.5vw;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0vh 0vw 0vh 0vw;
   }
 
 
@@ -1051,8 +1099,12 @@ p{
 }
 
 .Testim img{
-  width: 2.8rem;
-  height: 2.8rem;
+  width: 3rem;
+  min-width: 3rem;
+  max-width: 3rem;
+  height: 3rem;
+  min-height: 3rem;
+  max-height: 3rem;
   border-radius: 50%;
   object-fit: cover;
   margin: 0vh 0vw 0vh 4vw;

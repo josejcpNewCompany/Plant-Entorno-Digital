@@ -45,7 +45,8 @@ body{
 
 .B-Navegacion svg{
     width: 1.2rem;
-    height: 1.2rem;
+    min-width: 1.3vw;
+    max-width: 1.2rem;
 }
 
 .logo{
@@ -64,7 +65,8 @@ body{
 
 .logo svg{
     width: 1.5rem;
-    height: 1.5rem;
+    min-width: 1.8vw;
+    max-width: 1.5rem;
 }
 
 .login {
@@ -89,7 +91,8 @@ body{
 .login img{
     background-color: rgb(255, 255, 255); /* Color del botón */
     width: 1.5rem;
-    height: 1.5rem;
+    min-width: 1.8vw;
+    max-width: 1.5rem;
     border-radius: 10vw;
     margin: 0vh 0vw 0vh 0vw;
 }
@@ -289,8 +292,9 @@ body{
 }
 
 .Estructura-Seccion img{
-width: 1.5rem;
-height: 1.5rem;
+    height: 1.1rem;
+    min-height: 1.5vw;
+    max-height: 1.1rem;
 background: none;
 }
 
@@ -362,7 +366,11 @@ background: none;
     
     .inf-articulo-documentacion img{
         width: 2rem;
+        min-width: 2.5vw;
+        max-width: 2rem;
         height: 2rem;
+        min-height: 2.5vw;
+        max-height: 2rem;
         margin: 0px 0.8vw 0px 0px;
         border-radius: 50%;
         object-fit: cover;
@@ -388,8 +396,9 @@ background: none;
     }
 
     .ico-tipo-informacion img{
-    width: 1.1rem;
-    height: 1.1rem;
+        height: 1.1rem;
+    min-height: 1.5vw;
+    max-height: 1.1rem;
     background: none;
     }
     
@@ -484,7 +493,11 @@ background: none;
 
 .cont-img-noticia img{
     width: 2rem;
+    min-width: 2.5vw;
+    max-width: 2rem;
     height: 2rem;
+    min-height: 2.5vw;
+    max-height: 2rem;
     border-radius: 50%;
     margin: 0vh 1vw 0vh 0vw;
 }
@@ -532,7 +545,11 @@ background: none;
 
 .cont-img-video img{
     width: 2rem;
+    min-width: 2.5vw;
+    max-width: 2rem;
     height: 2rem;
+    min-height: 2.5vw;
+    max-height: 2rem;
     border-radius: 50%;
     margin: 0vh 1vw 0vh 0vw;
 }
@@ -568,8 +585,12 @@ background: none;
             border: none;
             font-size: 2.5vw;
             border-radius: 50%;
-            width: 3rem;
-            height: 3rem;
+            width: 2rem;
+            min-width: 3.5vw;
+            max-width: 2rem;
+            height: 2rem;
+            min-height: 3.5vw;
+            max-height: 2rem;
             margin: 0vh -2vw 0vh -2vw;
             top: 50%;
             z-index: 1;
@@ -604,77 +625,6 @@ footer h6{
 
 @media (width <= 912px){
 
-    /*--------------Barra-Navegación--------------*/
-    .B-Navegacion{
-        display: flex;
-        justify-content: space-between;
-        border-top: 2px solid rgb(228, 228, 228);
-    }
-    
-    .logo{
-        display: flex;
-        align-items: center;
-        padding: 0px 0vw 0px 3.5vw;
-    }
-    
-    .logo svg{
-        width: 6vw;
-    }
-    
-    .logo h3{
-        font-size: 3.5vw;
-        padding: 0px 0vw 0px 2vw;
-    }
-    
-    .Login{
-        display: flex;
-        align-items: center;
-        border-bottom-left-radius: 4vw;
-        padding: 0px 3.5vw 0px 3vw;
-    }
-    
-    .Login svg{
-        width: 6vw;
-    }
-    
-    .Login h3{
-        font-size: 3.5vw;
-        padding: 0px 4vw 0px 0vw;
-    }
-    
-    /*------------Barra-Navegación-iconos-----------*/
-    .cont-Barra-N{
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        gap: 2vw;
-        position: fixed;
-        width: 100%;
-        bottom: 0;
-        background: rgb(255, 255, 255);
-        border-top: 2px solid rgb(228, 228, 228);
-    }
-    
-    .cont-Barra-N div{
-        display: block;
-        text-align: center;
-        margin: 0vh 0px 0vh 0px;
-        padding: 1.5vh 0px 1.5vh 0vw;
-    }
-    
-    .cont-Barra-N svg{
-        width: 6vw;
-    }
-    
-    .cont-Barra-N div h3{
-        font-size: 3vw;
-        margin: 0px 0px 0px 0px;
-        padding: 0px 0px 0px 0vw;
-    }
-}
-
-@media (width <= 480px){
-
 /*--------------Barra-Navegación--------------*/
 .B-Navegacion{
     display: flex;
@@ -684,7 +634,8 @@ footer h6{
 
 .B-Navegacion svg{
     width: 1.2rem;
-    height: 1.2rem;
+    min-width: 1.3vw;
+    max-width: 1.2rem;
 }
 
 .logo{
@@ -694,7 +645,9 @@ footer h6{
 }
 
 .logo svg{
-    width: 7vw;
+    width: 1.2rem;
+    min-width: 1.3vw;
+    max-width: 1.2rem;
 }
 
 .logo h3{
@@ -720,9 +673,43 @@ footer h6{
 
 .login img{
     width: 1.2rem;
-    height: 1.2rem;
+    min-width: 1.3vw;
+    max-width: 1.2rem;
     border-radius: 50%;
     margin: 0vh 0vw 0vh 0vw;
+}
+
+/*------------Barra-Navegación-iconos-----------*/
+.cont-Barra-N{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2vw;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border: none;
+    background: rgb(255, 255, 255);
+    z-index: 1000;
+}
+
+.cont-Barra-N div{
+    display: block;
+    text-align: center;
+    margin: 0vh 0px 0vh 0px;
+    padding: 1.3vh 0px 1.3vh 0vw;
+}
+
+.cont-Barra-N svg{
+    width: 1.1rem;
+    min-width: 1.2vw;
+    max-width: 1.1rem;
+}
+
+.cont-Barra-N div h3{
+    font-size: 3vw;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0vw;
 }
 
 
