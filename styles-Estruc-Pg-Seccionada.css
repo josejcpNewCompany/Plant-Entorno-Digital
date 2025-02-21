@@ -253,6 +253,39 @@ p{
   }
 
 
+  .canal{
+    overflow: none;
+    max-width: 17vw;
+    min-height: 100%;
+    text-align: center;
+    padding: 0vh 0vw 2vh 0vw;
+  }
+
+  .canal h5{
+    width: 100%;
+    color: black;
+    font-size: 1.5vw;
+    margin: 2.5vh 0vw 1.5vh 0vw;
+  }
+
+  .canal span{
+    width: 100%;
+    color: rgb(0, 89, 255);
+    font-size: 1.8vw;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0vh 0vw 0vh 0vw;
+  }
+
+  .canal img{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 3vh 0vw 0vh 0vw;
+  }
+
+
 
   .cont-Imagenes-videos-acopladas{
     display: flex;
