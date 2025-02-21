@@ -113,8 +113,12 @@ body{
   }
 
   .contenedor-pequeno {
-      width: 2.5rem;
-      height: 2.5rem;
+    width: 2.5rem;
+    min-width: 3vw;
+    max-width: 2.5rem;
+    height: 2.5rem;
+    min-height: 3vw;
+    max-height: 2.5rem;
       margin: 0vh 0vw 1vh 0vw;
       border-radius: 0.5vw;
       overflow: hidden;
@@ -160,7 +164,11 @@ body{
 
 .ico-Beneficios img{
   width: 1.5rem;
+  min-width: 1.5vw;
+  max-width: 1.5rem;
   height: 1.5rem;
+  min-height: 1.5vw;
+  max-height: 1.5rem;
 }
 
 .cont-Beneficios p{
@@ -216,7 +224,11 @@ body{
 
 .ico-parametros img{
   width: 1.5rem;
+  min-width: 1.5vw;
+  max-width: 1.5rem;
   height: 1.5rem;
+  min-height: 1.5vw;
+  max-height: 1.5rem;
 }
 
 .cont-parametros p{
@@ -283,7 +295,7 @@ text-align: left;
 background-color: rgba(255, 255, 255, 0);
 border: none;
 outline: none;
-padding: 12px;
+padding: 1vw;
 font-size: 18px;
 cursor: pointer;
 transition: background-color 0.3s;
@@ -305,7 +317,7 @@ transition: max-height 0.0s ease-out, padding 0.1s ease-out;
 
 .faq-item.open .faq-answer {
 max-height: 500px; /* Ajustar según el contenido */
-padding: 10px;
+  padding: 1vw;
 }
 
 .faq-item.open .faq-question .arrow {
@@ -348,7 +360,11 @@ transform: rotate(90deg);
 
 .Testim img{
   width: 3rem;
+  min-width: 3.5vw;
+  max-width: 3rem;
   height: 3rem;
+  min-height: 3.5vw;
+  max-height: 3rem;
   border-radius: 50%;
   object-fit: cover;
   margin: 3vh 0vw 0vh 2vw;
@@ -401,8 +417,12 @@ transform: rotate(90deg);
       border: none;
       font-size: 2.5vw;
       border-radius: 50%;
-      width: 3rem;
-      height: 3rem;
+      width: 2rem;
+      min-width: 3.5vw;
+      max-width: 2rem;
+      height: 2rem;
+      min-height: 3.5vw;
+      max-height: 2rem;
       margin: 0vh -2vw 0vh -2vw;
       top: 50%;
       z-index: 1;
@@ -503,7 +523,7 @@ margin: 0vh 0vw 0vh 0vw;
 
 /*---------------------------------------------------------------------*/
 
-@media(width <= 480px){
+@media(width <= 912px){
 
 /*------------Info-Servicio--------------*/
   .servicio{
@@ -593,8 +613,12 @@ margin: 0vh 0vw 0vh 0vw;
     }
   
     .contenedor-pequeno {
-        width: 2.5rem;
-        height: 2.5rem;
+      width: 2.5rem;
+      min-width: 2vw;
+      max-width: 2.5rem;
+      height: 2.5rem;
+      min-height: 2vw;
+      max-height: 2.5rem;
         margin: 0vh 0vw 0vh 0vw;
         border-radius: 1vw;
         overflow: hidden;
@@ -825,8 +849,12 @@ margin: 0vh 0vw 0vh 0vw;
 }
 
 .Testim img{
-  width: 2.8rem;
-  height: 2.8rem;
+  width: 3rem;
+  min-width: 3rem;
+  max-width: 3rem;
+  height: 3rem;
+  min-height: 3rem;
+  max-height: 3rem;
   border-radius: 50%;
   object-fit: cover;
   margin: 0vh 0vw 0vh 4vw;
