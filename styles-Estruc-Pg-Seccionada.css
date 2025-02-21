@@ -71,7 +71,7 @@ p{
   }
 
   .inf-p h1{
-    color: rgb(0, 0, 0);
+    color: #000000;
     font-size: 2vw;
     margin: 0vh 0vw 0vh 1.5vw;
   }
@@ -115,13 +115,18 @@ p{
   }
 
   .descrip-Pg-Seccionada h2{
-    font-size: 2.3vw;
+    font-size: 2.5vw;
     margin: 4vh 0vw 0.5vh 0vw;
   }
 
+  .descrip-Pg-Seccionada h3{
+    font-size: 2.3vw;
+    margin: 3vh 0vw 0vh 0vw;
+  }
+
   .descrip-Pg-Seccionada h4{
-    font-size: 1.8vw;
-    margin: 4vh 0vw 2.8vh 0vw;
+    font-size: 1.5vw;
+    margin: 3vh 0vw 1.5vh 0vw;
   }
 
   .descrip-Pg-Seccionada p{
@@ -136,8 +141,8 @@ p{
 
 
   .puntos-clave{
-    background: rgb(245, 255, 244);
-    border-left: 3px solid rgb(0, 141, 19);
+    background: rgb(247, 254, 255);
+    border-left: 3px solid rgb(0, 140, 255);
     padding: 4vh 2vw 1vh 2vw;
     margin: 5vh 0vw 5vh 0vw;
   }
@@ -185,7 +190,7 @@ p{
     display: flex;
     flex-wrap: wrap;
     gap: 1.5vw;
-    margin: 5vh 0vw 5vh 0vw;
+    margin: 5vh 0vw 10vh 0vw;
   }
 
   .cont-Recursos a{
@@ -193,15 +198,14 @@ p{
   }
 
   .recurso{
-    overflow: hidden;
     flex: 1 1 25vw;
-    max-width: 23.5vw;
+    max-width: 20.5vw;
     width: 100%;
     min-height: 100%;
     border-radius: 1.5vw;
     text-align: start;
     background: rgb(243, 243, 243);
-    padding: 0vh 0vw 2vh 0vw;
+    padding: 0vh 1vw 0vh 1vw;
     transition: 0.3s;
   }
 
@@ -212,11 +216,13 @@ p{
   .recurso img{
     height: 15vh;
     width: 100%;
+    border-radius: 1vw;
     object-fit: cover;
+    margin: 2vh 0vw 0vh 0vw;
   }
 
   .recurso h5{
-    width: 20vw;
+    width: 18vw;
     color: black;
     font-size: 1.8vw;
     margin: 2vh 1.5vw 0vh 1.5vw;
@@ -224,7 +230,7 @@ p{
 
   .recurso p{
     font-size: 1.3vw;
-    margin: 2vh 1.5vw 0vh 1.5vw;
+    margin: 2vh 1.5vw 4vh 1.5vw;
   }
 
   .recurso small{
@@ -545,7 +551,7 @@ p{
 
   .indice-busqueda h4{
     font-size: 1.8vw;
-    margin: 0vh 0vw 2vh 0vw;
+    margin: 0vh 0vw 2vh 2vw;
   }
 
   .indice-busqueda ul{
@@ -774,6 +780,7 @@ p{
   }
 
   .descrip-Pg-Seccionada h2{
+    font-weight: 700;
     font-size: 6vw;
     margin: 3vh 0vw 0vh 0vw;
   }
@@ -784,13 +791,18 @@ p{
   }
 
   .descrip-Pg-Seccionada h4{
-    font-size: 5.5vw;
-    margin: 5vh 0vw 0vh 0vw;
+    font-size: 4vw;
+    margin: 3vh 0vw 0vh 0vw;
   }
 
   .descrip-Pg-Seccionada p{
     font-size: 3.5vw;
     margin: 2vh 0vw 0vh 0vw;
+  }
+
+  .descrip-Pg-Seccionada strong{
+    font-weight: 800;
+    margin: 0vh 0vw 0vh 0vw;
   }
 
 
@@ -834,17 +846,13 @@ p{
   }
 
   .recurso{
-    overflow: scroll;
     flex: 1 1 20vw;
-    max-width: 44vw;
+    max-width: 40vw;
     width: 100%;
-    min-height: 25vh;
-    max-height: 25vh;
     height: 100%;
     border-radius: 3vw;
     text-align: start;
-    padding: 0vh 0vw 5vh 0vw;
-    margin: 0vh 0vw 0.5vh 0vw;
+    padding: 0vh 2vw 0vh 2vw;
     transition: 0.3s;
   }
 
@@ -856,6 +864,8 @@ p{
     height: 10vh;
     width: 100%;
     object-fit: cover;
+    border-radius: 2vw;
+    margin: 1.5vh 0vw 0vh 0vw;
   }
 
   .recurso small{
@@ -874,7 +884,7 @@ p{
 
   .recurso p{
     font-size: 3.5vw;
-    margin: 1.5vh 3.5vw 0vh 3.5vw;
+    margin: 1.5vh 3.5vw 2vh 3.5vw;
   }
 
   .recurso::-webkit-scrollbar { 
@@ -895,12 +905,13 @@ p{
 
   .canal{
     text-align: center;
-    min-width: 44vw;
+    min-width: 40vw;
   }
 
   .canal img{
     height: 3.5rem;
     width: 3.5rem;
+    border-radius: 50%;
     margin: 2vh 0vw 0vh 0vw;
   }
 
