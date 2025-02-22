@@ -90,9 +90,9 @@ body{
 
 .login img{
     background-color: rgb(255, 255, 255); /* Color del botón */
-    width: 1.5rem;
-    min-width: 1.8vw;
-    max-width: 1.5rem;
+    width: 1.8rem;
+    min-width: 2vw;
+    max-width: 1.8rem;
     border-radius: 10vw;
     margin: 0vh 0vw 0vh 0vw;
 }
@@ -689,6 +689,67 @@ body{
     margin: 0vh 0vw 0vh 0vw;
 }
 
+
+/*------------------Sec-Testimonios-----------------------*/
+
+.Testimonios{
+  text-align: start;
+  margin: 10vh 4vw 0vh 4vw;
+}
+
+.Testimonios h5{
+  color: #000000;
+  font-size: 2vw;
+  margin: 0vh 0vw 2.2vh 0vw;
+}
+
+.Testimonios p{
+  color: rgb(87, 87, 87);
+  font-size: 1.3vw;
+  margin: 0vh 0vw 4vh 0vw;
+}
+
+.Testim{
+  display: flex;
+  width: 29.3vw;
+  background: #f3f3f3;
+  border-radius: 1vw;
+  margin: 0vh 0vw 0vh 0vw;
+  padding: 0vh 0vw 2vh 0vw;
+  transition: 0.3s;
+}
+
+.Testim:hover{
+  background: #ececec;
+}
+
+.Testim img{
+  width: 3rem;
+  min-width: 3.5vw;
+  max-width: 3rem;
+  height: 3rem;
+  min-height: 3.5vw;
+  max-height: 3rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 3vh 0vw 0vh 2vw;
+}
+
+.descrip-Testim h3{
+  text-align: start;
+  color: #000000;
+  font-size: 1.8vw;
+  margin: 3vh 2vw 0vh 2vw;
+}
+
+.descrip-Testim p{
+  text-align: start;
+  font-size: 1.2vw;
+  margin: 1.8vh 2vw 0vh 2vw;
+}
+
+
+
 /*--------------------------------------------------------------------------*/
 
 .scroll-wrapper {
@@ -808,9 +869,9 @@ footer h6{
 }
 
 .login img{
-    width: 1.2rem;
-    min-width: 1.3vw;
-    max-width: 1.2rem;
+    width: 1.3rem;
+    min-width: 1.5vw;
+    max-width: 1.3rem;
     border-radius: 50%;
     margin: 0vh 0vw 0vh 0vw;
 }
@@ -1355,6 +1416,66 @@ footer h6{
 }
 
 
+/*------------------Sec-Testimonios-----------------------*/
+
+.Testimonios{
+  text-align: start;
+  margin: 3vh 4vw 0vh 4vw;
+}
+
+.Testimonios h5{
+  color: #000000;
+  font-size: 6vw;
+  margin: 0vh 0vw 1vh 0vw;
+}
+
+.Testimonios p{
+  color: rgb(87, 87, 87);
+  font-size: 3.5vw;
+  margin: 0vh 0vw 2vh 0vw;
+}
+
+.Testim{
+  align-items: center;
+  display: flex;
+  width: 80vw;
+  background: #f3f3f3;
+  border-radius: 3vw;
+  margin: 0vh 0vw 0vh 0vw;
+  padding: 0vh 0vw 1vh 0vw;
+  transition: 0.3s;
+}
+
+.Testim:hover, .serv3:hover{
+  background: #ececec;
+}
+
+.Testim img{
+  width: 3rem;
+  min-width: 3rem;
+  max-width: 3rem;
+  height: 3rem;
+  min-height: 3rem;
+  max-height: 3rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0vh 0vw 0vh 4vw;
+}
+
+.descrip-Testim h3{
+  text-align: start;
+  color: #000000;
+  font-size: 4vw;
+  margin: 2vh 3vw 1vh 4vw;
+}
+
+.descrip-Testim p{
+  text-align: start;
+  font-size: 3.5vw;
+  margin: 0vh 3vw 1vh 4vw;
+}
+
+
 /*--------------------------------------------------------------------------*/
 
 .scroll-wrapper {
@@ -1410,7 +1531,7 @@ footer h6{
 
 footer { 
     text-align: center;
-    margin: 3vh 0vw 10vh 0vw;
+    margin: 0vh 0vw 10vh 0vw;
     opacity: 50%;
 }
 
