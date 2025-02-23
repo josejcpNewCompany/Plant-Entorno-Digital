@@ -189,7 +189,7 @@ body{
   margin: 0px 0vw 0px 0vw;
 }
 
-.cont-Beneficios ul{
+.cont-Beneficios ul, ol{
   margin: 3vh 0vw 3vh 0vw;
   padding: 1vh 2vw 1vh 3vw;
   background: #f8f8f8;
@@ -197,7 +197,7 @@ body{
   border-left: 5px solid rgb(0, 132, 255);
 }
 
-.negro ul{
+.negro ul, ol{
   background: none;
   margin: 5vh 0vw 5vh 0vw;
   padding: 0vh 2vw 0vh 3vw;
@@ -256,7 +256,7 @@ body{
   padding: 1vh 2vw 3vh 3vw;
   background: #f8f8f8;
   border-radius: 1.5vw;
-  border-left: 5px solid #000000 ;
+  border-left: 5px solid #00a824 ;
 }
 
 .cont-parametros li{
@@ -556,7 +556,6 @@ margin: 0vh 0vw 0vh 0vw;
   }
   
   .servicio p{
-    text-align: justify;
     font-size: 3.5vw;
     margin: 0px 0vw 0px 0vw;
   }
@@ -699,12 +698,12 @@ margin: 0vh 0vw 0vh 0vw;
   margin: 0px 0vw 0px 0vw;
 }
 
-.cont-Beneficios ul{
+.cont-Beneficios ul, ol{
   margin: 3vh 0vw 4vh 0vw;
   padding: 1vh 6vw 3vh 9vw;
 }
 
-.negro ul{
+.negro ul, ol{
   padding: 0vh 2vw 0vh 4vw;
 }
 
