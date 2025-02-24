@@ -153,13 +153,13 @@ body{
   margin: 4vh 0vw 4vh 0vw;
 }
 
-.cont-Beneficios h5{
+.cont-Beneficios h6{
   font-size: 1.4vw;
   color: rgb(0, 132, 255);
   margin: 3vh 0vw 0vh -2vw;
 }
 
-.negro h5{
+.negro h6{
   color: rgb(0, 0, 0);
 }
 
@@ -169,8 +169,20 @@ body{
   margin: 0vh 0vw 3vh 0vw;
 }
 
+.bloque{
+  align-items: center;
+  display: flex;
+  margin: 3vh 0vw 3vh 0vw;
+}
+
 .ico-Beneficios h5{
   font-size: 1.5vw;
+  color: rgb(34, 34, 34);
+  margin: 0.5vh 0vw 0vh 1vw;
+}
+
+.bloque h5{
+  font-size: 1.8vw;
   color: rgb(34, 34, 34);
   margin: 0.5vh 0vw 0vh 1vw;
 }
@@ -184,6 +196,15 @@ body{
   max-height: 1.5rem;
 }
 
+.bloque img{
+  width: 1.8rem;
+  min-width: 1.8vw;
+  max-width: 1.8rem;
+  height: 1.8rem;
+  min-height: 1.8vw;
+  max-height: 1.8rem;
+}
+
 .cont-Beneficios p{
   font-size: 1.3vw;
   margin: 0px 0vw 0px 0vw;
@@ -193,7 +214,7 @@ body{
   margin: 3vh 0vw 3vh 0vw;
   padding: 1vh 2vw 1vh 3vw;
   background: #f8f8f8;
-  border-radius: 1.5vw;
+  border-radius: 1vw;
   border-left: 5px solid rgb(0, 132, 255);
 }
 
@@ -225,6 +246,12 @@ body{
   gap: 1vw;
 }
 
+.cont-parametros h6{
+  font-size: 1.4vw;
+  color: #00a824 ;
+  margin: 3vh 0vw 0vh -2vw;
+}
+
 .ico-parametros{
   align-items: center;
   display: flex;
@@ -252,10 +279,10 @@ body{
 }
 
 .cont-parametros ul{
-  margin: 0vh 0vw 4vh 0vw;
+  margin: 5vh 0vw 5vh 0vw;
   padding: 1vh 2vw 3vh 3vw;
   background: #f8f8f8;
-  border-radius: 1.5vw;
+  border-radius: 1vw;
   border-left: 5px solid #00a824 ;
 }
 
@@ -630,12 +657,12 @@ margin: 0vh 0vw 0vh 0vw;
     }
   
     .contenedor-pequeno {
-      width: 2.5rem;
+      width: 2rem;
       min-width: 2vw;
-      max-width: 2.5rem;
-      height: 2.5rem;
+      max-width: 2rem;
+      height: 2rem;
       min-height: 2vw;
-      max-height: 2.5rem;
+      max-height: 2rem;
         margin: 0vh 0vw 0vh 0vw;
         border-radius: 1vw;
         overflow: hidden;
@@ -666,13 +693,12 @@ margin: 0vh 0vw 0vh 0vw;
   margin: 3vh 0vw 3vh 0vw;
 }
 
-.cont-Beneficios h5{
+.cont-Beneficios h6{
   font-size: 4vw;
-  color: rgb(0, 132, 255);
   margin: 3vh 0vw 0vh -2vw;
 }
 
-.negro h5{
+.negro h6{
   color: rgb(0, 0, 0);
 }
 
@@ -680,6 +706,12 @@ margin: 0vh 0vw 0vh 0vw;
   align-items: center;
   display: flex;
   margin: 0vh 0vw 3vh 0vw;
+}
+
+.bloque{
+  align-items: center;
+  display: flex;
+  margin: 1.5vh 0vw 2vh 0vw;
 }
 
 .ico-Beneficios h5{
@@ -704,7 +736,7 @@ margin: 0vh 0vw 0vh 0vw;
 }
 
 .negro ul, ol{
-  padding: 0vh 2vw 0vh 4vw;
+  padding: 0vh 2vw 0vh 6vw;
 }
 
 .cont-Beneficios li{
@@ -726,6 +758,11 @@ margin: 0vh 0vw 0vh 0vw;
   /*----------------seccicon-Detalles-Caracteristicas-----------*/
   .cont-parametros{
     display: none;
+  }
+
+  .cont-parametros h6{
+    font-size: 4vw;
+    margin: 3vh 0vw 0vh -2vw;
   }
   
   .ico-parametros{
@@ -751,15 +788,13 @@ margin: 0vh 0vw 0vh 0vw;
   }
   
   .cont-parametros ul{
-    margin: 0vh 0vw 0vh 0vw;
+    margin: 2vh 0vw 2vh 0vw;
     padding: 1vh 6vw 3vh 9vw;
-    border-radius: 3vw;
   }
   
   .cont-parametros li{
     border-radius: 1vw;
     padding: 0vh 0vw 0vh 0vw;
-    border-radius: 2.5vw;
     font-size: 3.5vw;
     margin: 2vh 0vw 0vh 0vw;
   }
