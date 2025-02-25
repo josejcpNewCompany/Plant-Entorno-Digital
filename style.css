@@ -130,15 +130,15 @@ body{
 }
 
 /*------------------Sección-Portada-----------------------*/
-.Sec-1{
+.Sec-Portada{
     background: #ffffff;
 }
 
-.Sec-1 a{
+.Sec-Portada a{
     text-decoration: none;
 }
 
-.conte-1{
+.cont-Portada-elementos{
     width: 100%;
     height: 90vh;
     display: flex;
@@ -147,16 +147,16 @@ body{
     padding: 0vh 0vw 0vh 0vw;
 }
 
-.conte-2{
+.Portada-elementos{
     margin: 0px 0px 0px 5vw ;
 }
 
-.conte-2 h2{
+.Portada-elementos h2{
     font-size: 3.5vw;
     margin: 0px 8vw 0px 0px ;
 }
 
-.conte-2 p{
+.Portada-elementos p{
     color: rgb(87, 87, 87);
     font-size: 1.2vw;
     margin: 2vh 2vw 2.5vh 0vw ;
@@ -179,7 +179,7 @@ body{
     margin: 0px 0.6vw 0px 0px;
 }
 
-.conte-2 a{
+.Portada-elementos a{
     color: rgb(255, 255, 255);
     background: #0076d6;
     border-radius: 2vw;
@@ -190,36 +190,36 @@ body{
     transition: 0.3s;
 }
 
-.conte-2 a:hover{
+.Portada-elementos a:hover{
     background: #00569c;
 }
 
-.conte-2 a:focus{
+.Portada-elementos a:focus{
     background: #00569c;
 }
 
-.img-Pre1 img{
+.imgPng-Prortada img{
     width: 50vw;
     margin: 2vh 5vw 2vh 2vw ;
 }
 
-.barra-cont{
+.barra-contacto{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 1.5vw 2vh 2vw;
 }
 
-.barra-cont h4{
-    font-size: 1.2vw;
+.barra-contacto h4{
+    font-size: 1.1vw;
 }
 
-.barra-cont img{
+.barra-contacto img{
     width: 1.8vw;
     margin: 0px 1vw 0px 0px;
 }
 
-.barra-cont img:hover{
+.barra-contacto img:hover{
     opacity: 70%;
 }
 
@@ -234,19 +234,20 @@ body{
     opacity: 80%;
 }
 
-/*------------------Contenido--------------------*/
-.Sec1-Contenido{
+/*------------------Contenido-Principal-------------------*/
+
+.Sec-Contenido-Principal{
     text-align: center;
     margin: 10vh 4vw 0vh 4vw;
     z-index: 0;
 }
 
-.Sec1-Contenido h2{
+.Sec-Contenido-Principal h2{
     font-size: 3vw;
     margin: 0vh 0vw 2.2vh 0vw;
 }
 
-.Sec1-Contenido p{
+.Sec-Contenido-Principal p{
     color: rgb(87, 87, 87);
     font-size: 1.3vw;
     margin: 0vh 0vw 5vh 0vw;
@@ -258,7 +259,7 @@ body{
     gap: 2vw;
 }
 
-.contenedor { 
+.contenedor-Contenido { 
     border-radius: 1vw;
     position: relative;
     overflow: hidden;
@@ -266,23 +267,23 @@ body{
     transition: 0.3s;
 }
 
-.contenedor:hover{ 
+.contenedor-Contenido:hover{ 
     opacity: 80%;
 }
 
-.contenedor img {
+.contenedor-Contenido img {
     width: 100%;
     height: 50vh;
     object-fit: cover;
 }
 
-.contenedor video{
+.contenedor-Contenido video{
     width: 100%;
     height: 50vh;
     object-fit: cover;
     transition: transform 0.5s ease;
 }
-.contenedor:hover video { 
+.contenedor-Contenido:hover video { 
     transform: scale(1.1); 
 }
 
@@ -320,24 +321,24 @@ body{
 
 /*------------------areas-interes-------------------*/
 
-.Sec2-Area-interes{
+.Sec-Contenido-bloques-tip1{
     text-align: start;
     margin: 10vh 4vw 0vh 4vw;
     z-index: 0;
 }
 
-.Sec2-Area-interes h2{
+.Sec-Contenido-bloques-tip1 h2{
     font-size: 3vw;
     margin: 0vh 0vw 2.2vh 0vw;
 }
 
-.Sec2-Area-interes p{
+.Sec-Contenido-bloques-tip1 p{
     color: rgb(87, 87, 87);
     font-size: 1.3vw;
     margin: 0vh 0vw 3vh 0vw;
 }
 
-.cont-Contenido-Areas{
+.cont-Contenido-bloques-tip1{
     display: block;
     justify-content: center;
     gap: 1vw;
@@ -345,7 +346,7 @@ body{
     height: 100%;
 }
 
-.Sec2-Area-interes .cont-elemen{
+.Sec-Contenido-bloques-tip1 .cont-elementos-Bloque-tip1{
     display: flex;
     justify-content: center;
     gap: 1vw;
@@ -353,7 +354,7 @@ body{
     height: 100%;
 }
 
-.Sec2-Area-interes .elemen{
+.Sec-Contenido-bloques-tip1 .elementos-tip1{
     display: flex;
     justify-content: center;
     gap: 1vw;
@@ -361,7 +362,7 @@ body{
     height: 100%;
 }
 
-.Area1, .Area2, .Area3, .Area4 { 
+.bloque1-tip1, .bloque2-tip1, .bloque3-tip1, .bloque4-tip1 { 
     border-radius: 1vw;
     position: relative;
     overflow: hidden;
@@ -370,49 +371,49 @@ body{
     transition: 0.3s;
 }
 
-.Area1{ 
+.bloque1-tip1{ 
   margin: 0vh 0vw 2vh 0vw;
 }
 
-.Area2{ 
+.bloque2-tip1{ 
   margin: 0vh 0vw 0vh 0vw;
 }
 
-.Area1:hover, .Area2:hover, .Area3:hover, .Area4:hover{ 
+.bloque1-tip1:hover, .bloque2-tip1:hover, .bloque3-tip1:hover, .bloque4-tip1:hover{ 
     opacity: 90%;
 }
 
-.Area1 img{
+.bloque1-tip1 img{
     width: 100%;
     height: 30vh;
     object-fit: cover;
 }
 
-.Area1 video {
+.bloque1-tip1 video {
     width: 100%;
     height: 30vh;
     object-fit: cover;
 }
 
-.Area2 img{
+.bloque2-tip1 img{
     width: 100%;
     height: 30vh;
     object-fit: cover;
 }
 
-.Area3 img{
+.bloque3-tip1 img{
     width: 60vw;
     height: 30vh;
     object-fit: cover;
 }
 
-.Area4 img{
+.bloque4-tip1 img{
     width: 100%;
     height: 30vh;
     object-fit: cover;
 }
 
-.Sec2-Area-interes .texto { 
+.Sec-Contenido-bloques-tip1 .texto { 
     text-align: start;
     position: absolute;
     bottom: 0;
@@ -422,19 +423,19 @@ body{
     color: white;
 }
 
-.Sec2-Area-interes .texto h4{
+.Sec-Contenido-bloques-tip1 .texto h4{
     font-size: 1.6vw;
     margin: 0vh 5vw 1.5vh 0vw;
     color: white;
 }
 
-.Sec2-Area-interes .texto p{
+.Sec-Contenido-bloques-tip1 .texto p{
     font-size: 1.2vw;
     color: rgb(221, 221, 221);
     margin: 0vh 3vw 2vh 0vw;
 }
 
-/*------------------Sec-Servicios-Populares-----------------------*/
+/*------------------Sec-Servicios-Planes-----------------------*/
 
 .Servicios-Planes{
     margin: 10vh 4vw 0vh 4vw;
@@ -655,24 +656,25 @@ body{
 }
 
 /*------------------Contenido-blog-------------------*/
-.Sec4-Contenido-blog{
+
+.Sec-Contenido-bloques-tip2{
     text-align: start;
     margin: 10vh 4vw 0vh 4vw;
     z-index: 0;
 }
 
-.Sec4-Contenido-blog h2{
+.Sec-Contenido-bloques-tip2 h2{
     font-size: 3vw;
     margin: 0vh 0vw 2.2vh 0vw;
 }
 
-.Sec4-Contenido-blog p{
+.Sec-Contenido-bloques-tip2 p{
     color: rgb(87, 87, 87);
     font-size: 1.3vw;
     margin: 0vh 4vw 3vh 0vw;
 }
 
-.cont-Contenido-blog{
+.cont-Contenido-bloques-tip2{
     display: flex;
     justify-content: center;
     gap: 1vw;
@@ -680,7 +682,7 @@ body{
     height: 100%;
 }
 
-.cont-elemen{
+.cont-elementos-tip2{
     display: block;
     justify-content: center;
     gap: 0vw;
@@ -688,7 +690,7 @@ body{
     height: 100%;
 }
 
-.elemen{
+.elementos-tip2{
     display: flex;
     justify-content: center;
     gap: 1vw;
@@ -696,7 +698,7 @@ body{
     height: 100%;
 }
 
-.contenedor1, .contenedor2, .contenedor3, .contenedor4 { 
+.bloque1-tip2, .bloque2-tip2, .bloque3-tip2, .bloque4-tip2 { 
     border-radius: 1vw;
     position: relative;
     overflow: hidden;
@@ -705,45 +707,45 @@ body{
     transition: 0.3s;
 }
 
-.contenedor2{ 
+.bloque2-tip2{ 
   margin: 2.5vh 0vw 0vh 0vw;
 }
 
-.contenedor1:hover, .contenedor2:hover, .contenedor3:hover, .contenedor4:hover{ 
+.bloque1-tip2:hover, .bloque2-tip2:hover, .bloque3-tip2:hover, .bloque4-tip2:hover{ 
     opacity: 90%;
 }
 
-.contenedor1 img{
+.bloque1-tip2 img{
     width: 50vw;
     height: 65vh;
     object-fit: cover;
 }
 
-.contenedor1 video {
+.bloque1-tip2 video {
     width: 50vw;
     height: 65vh;
     object-fit: cover;
 }
 
-.contenedor2 img{
+.bloque2-tip2 img{
     width: 100%;
     height: 31vh;
     object-fit: cover;
 }
 
-.contenedor3 img{
+.bloque3-tip2 img{
     width: 100%;
     height: 31vh;
     object-fit: cover;
 }
 
-.contenedor4 img{
+.bloque4-tip2 img{
     width: 100%;
     height: 31vh;
     object-fit: cover;
 }
 
-.Sec4-Contenido-blog .texto { 
+.Sec-Contenido-bloques-tip2 .texto { 
     text-align: start;
     position: absolute;
     bottom: 0;
@@ -753,19 +755,19 @@ body{
     color: white;
 }
 
-.Sec4-Contenido-blog .texto h4{
+.Sec-Contenido-bloques-tip2 .texto h4{
     font-size: 1.6vw;
     margin: 3vh 4vw 1.5vh 0vw;
     color: white;
 }
 
-.Sec4-Contenido-blog .texto p{
+.Sec-Contenido-bloques-tip2 .texto p{
     font-size: 1.2vw;
     color: rgb(221, 221, 221);
     margin: 0vh 2vw 2vh 0vw;
 }
 
-.Sec4-Contenido-blog .texto small{
+.Sec-Contenido-bloques-tip2 .texto small{
     font-size: 1.1vw;
     font-weight: 700;
     color: rgb(255, 255, 255);
@@ -778,25 +780,25 @@ body{
 
 /*------------------Contenido-Enfoques-------------------*/
 
-.Contenido-Enfoques{
+.Sec-Contenido-bloques-tip3{
     text-align: start;
     margin: 10vh 4vw 0vh 4vw;
     z-index: 0;
 }
 
-.Contenido-Enfoques h2{
+.Sec-Contenido-bloques-tip3 h2{
     color: #000000;
     font-size: 3vw;
     margin: 0vh 0vw 2.2vh 0vw;
 }
 
-.Contenido-Enfoques p{
+.Sec-Contenido-bloques-tip3 p{
     color: rgb(87, 87, 87);
     font-size: 1.3vw;
     margin: 0vh 4vw 3vh 0vw;
 }
 
-.cont-Contenido-Enfoques{
+.cont-Contenido-bloques-tip3{
     display: flex;
     justify-content: center;
     gap: 1vw;
@@ -804,7 +806,7 @@ body{
     height: 100%;
 }
 
-.cont-elemen{
+.cont-elementos-tip3{
     display: block;
     justify-content: center;
     gap: 0vw;
@@ -812,7 +814,7 @@ body{
     height: 100%;
 }
 
-.elemen{
+.elementos-tip3{
     display: flex;
     justify-content: center;
     gap: 1vw;
@@ -820,7 +822,7 @@ body{
     height: 100%;
 }
 
-.enfoque1, .enfoque2, .enfoque3 { 
+.bloques1-tip3, .bloques2-tip3, .bloques3-tip3 { 
     border-radius: 1vw;
     position: relative;
     overflow: hidden;
@@ -829,29 +831,29 @@ body{
     transition: 0.3s;
 }
 
-.enfoque1{ 
+.bloques1-tip3{ 
     width: 80vw;
     height: 100%;
     margin: 0vh 0vw 0vh 0vw;
 }
 
-.enfoque1:hover, .enfoque2:hover, .enfoque3:hover{ 
+.bloques1-tip3:hover, .bloques2-tip3:hover, .bloques3-tip3:hover{ 
     opacity: 90%;
 }
 
-.enfoque1 img, .enfoque2 img, .enfoque3 img{
+.bloques1-tip3 img, .bloques2-tip3 img, .bloques3-tip3 img{
     width: 100%;
     height: 40vh;
     object-fit: cover;
 }
 
-.enfoque1 video {
+.bloques1-tip3 video {
     width: 100%;
     height: 50vh;
     object-fit: cover;
 }
 
-.Contenido-Enfoques .texto { 
+.Sec-Contenido-bloques-tip3 .texto { 
     text-align: start;
     position: absolute;
     bottom: 0;
@@ -861,13 +863,13 @@ body{
     color: white;
 }
 
-.Contenido-Enfoques .texto h4{
+.Sec-Contenido-bloques-tip3 .texto h4{
     font-size: 1.6vw;
     margin: 0vh 4vw 1.5vh 0vw;
     color: white;
 }
 
-.Contenido-Enfoques .texto p{
+.Sec-Contenido-bloques-tip3 .texto p{
     font-size: 1.2vw;
     color: rgb(221, 221, 221);
     margin: 0vh 3vw 2vh 0vw;
@@ -1176,7 +1178,7 @@ footer h6{
 
 /*------------------Sección-Portada-----------------------*/
 
-.conte-1{
+.cont-Portada-elementos{
     display: flex;
     height: 80vh;
     flex-wrap: wrap-reverse;
@@ -1185,21 +1187,21 @@ footer h6{
     padding: 0vh 0vw 0vh 0vw;
 }
 
-.conte-2{
+.Portada-elementos{
     text-align: center;
 }
 
-.conte-2 h2{
+.Portada-elementos h2{
     font-size: 9vw;
     margin: 0px 8vw 0px 8vw ;
 }
 
-.conte-2 p{
+.Portada-elementos p{
     font-size: 3.5vw;
     margin: 1vh 5vw 2.5vh 5vw;
 }
 
-.conte-2{
+.Portada-elementos{
     margin: 0px 0px 10.5vh 0vw ;
 }
 
@@ -1218,7 +1220,7 @@ footer h6{
     width: 5vw;
 }
 
-.conte-2 a{
+.Portada-elementos a{
     border-radius: 8vw;
     text-decoration: none;
     font-size: 5vw;
@@ -1227,18 +1229,18 @@ footer h6{
     transition: 0.3s;
 }
 
-.img-Pre1{
+.imgPng-Prortada{
     display: flex;
     justify-content: center;
     margin: 20.5vh 0px 0px 0px ;
 }
 
-.img-Pre1 img{
+.imgPng-Prortada img{
     width: 80vw;
     margin: 0px 0px 0vh 0px ;
 }
 
-.barra-cont{
+.barra-contacto{
     display: flex;
     justify-content: center;
     gap: 2vw;
@@ -1247,16 +1249,16 @@ footer h6{
     padding: 0.5vh 1.5vw 8vh 2vw;
 }
 
-.barra-cont h4{
+.barra-contacto h4{
     display: none;
 }
 
-.barra-cont img{
+.barra-contacto img{
     width: 6vw;
     margin: 0px 0vw 0px 0px;
 }
 
-.barra-cont img:hover{
+.barra-contacto img:hover{
     opacity: 70%;
 }
 
@@ -1271,29 +1273,29 @@ footer h6{
     opacity: 80%;
 }
 
-/*----------------Seccio-Contenido-------------*/
+/*----------------Seccio-Contenido-Principal------------*/
 
-.Sec1-Contenido{
+.Sec-Contenido-Principal{
     text-align: start;
     margin: 3vh 4vw 0vh 4vw;
 }
 
-.Sec1-Contenido h2{
+.Sec-Contenido-Principal h2{
     font-size: 7vw;
     margin: 0vh 0vw 1.3vh 0vw;
 }
 
-.Sec1-Contenido p{
+.Sec-Contenido-Principal p{
     color: rgb(87, 87, 87);
     font-size: 3.5vw;
     margin: 0vh 0vw 2.3vh 0vw;
 }
 
-.cont{
+.cont-caja{
     overflow: scroll;
 }
 
-.cont::-webkit-scrollbar{
+.cont-caja::-webkit-scrollbar{
     display: none;
 }
 
@@ -1304,30 +1306,30 @@ footer h6{
     padding: 0px 0vw 0px 0px;
 }
 
-.contenedor { 
+.contenedor-Contenido { 
     border-radius: 2vw;
     position: relative;
     width: 80vw;
     overflow: hidden;
 }
 
-.contenedor video{
+.contenedor-Contenido video{
     width: 100%;
     height: 45vh;
     object-fit: cover;
     transition: 0.5s ease;
 }
-.contenedor:hover video { 
+.contenedor-Contenido:hover video { 
     transform: scale(1.1); 
 }
 
-.contenedor img {
+.contenedor-Contenido img {
     width: 100%;
     height: 40vh;
     object-fit: cover;
 }
 
-.Sec1-Contenido .texto { 
+.Sec-Contenido-Principal .texto { 
     text-align: start;
     position: absolute;
     bottom: 0;
@@ -1336,14 +1338,14 @@ footer h6{
     color: white;
 }
 
-.Sec1-Contenido .texto h4{
+.Sec-Contenido-Principal .texto h4{
     width: 45vw;
     font-size: 5vw;
-    margin: 2vh 0vw 1vh 0vw;
+    margin: 2.5vh 0vw 1vh 0vw;
     color: white;
 }
 
-.Sec1-Contenido .texto p{
+.Sec-Contenido-Principal .texto p{
     font-size: 3.5vw;
     color: rgb(221, 221, 221);
     margin: 0vh 7vw 0vh 0vw;
@@ -1358,24 +1360,25 @@ footer h6{
 }
 
 /*------------------areas-interes-------------------*/
-.Sec2-Area-interes{
+
+.Sec-Contenido-bloques-tip1{
     text-align: start;
     margin: 3vh 4vw 0vh 4vw;
     z-index: 0;
 }
 
-.Sec2-Area-interes h2{
+.Sec-Contenido-bloques-tip1 h2{
     font-size: 7vw;
     margin: 0vh 0vw 1vh 0vw;
 }
 
-.Sec2-Area-interes p{
+.Sec-Contenido-bloques-tip1 p{
     color: rgb(87, 87, 87);
     font-size: 3.5vw;
     margin: 0vh 4vw 2vh 0vw;
 }
 
-.cont-Contenido-Areas{
+.cont-Contenido-bloques-tip1{
     display: block;
     justify-content: center;
     gap: 1vw;
@@ -1383,7 +1386,7 @@ footer h6{
     height: 100%;
 }
 
-.Sec2-Area-interes .cont-elemen{
+.Sec-Contenido-bloques-tip1 .cont-elementos-Bloque-tip1{
     display: block;
     justify-content: center;
     gap: 1vw;
@@ -1391,7 +1394,7 @@ footer h6{
     height: 100%;
 }
 
-.Sec2-Area-interes .elemen{
+.Sec-Contenido-bloques-tip1 .elementos-tip1{
     display: flex;
     justify-content: center;
     gap: 2vw;
@@ -1399,7 +1402,7 @@ footer h6{
     height: 100%;
 }
 
-.Area1, .Area2, .Area3, .Area4 { 
+.bloque1-tip1, .bloque2-tip1, .bloque3-tip1, .bloque4-tip1 { 
     border-radius: 2vw;
     position: relative;
     overflow: hidden;
@@ -1408,49 +1411,49 @@ footer h6{
     transition: 0.3s;
 }
 
-.Area1{ 
+.bloque1-tip1{ 
   margin: 0vh 0vw 1vh 0vw;
 }
 
-.Area2{ 
+.bloque2-tip1{ 
   margin: 1vh 0vw 0vh 0vw;
 }
 
-.Area1:hover, .Area2:hover, .Area3:hover, .Area4:hover{ 
+.bloque1-tip1:hover, .bloque2-tip1:hover, .bloque3-tip1:hover, .bloque4-tip1:hover{ 
     opacity: 90%;
 }
 
-.Area1 img{
+.bloque1-tip1 img{
     width: 100%;
     height: 20vh;
     object-fit: cover;
 }
 
-.Area1 video {
+.bloque1-tip1 video {
     width: 100%;
     height: 20vh;
     object-fit: cover;
 }
 
-.Area2 img{
+.bloque2-tip1 img{
     width: 100%;
     height: 20vh;
     object-fit: cover;
 }
 
-.Area3 img{
+.bloque3-tip1 img{
     width: 60vw;
     height: 22.5vh;
     object-fit: cover;
 }
 
-.Area4 img{
+.bloque4-tip1 img{
     width: 100%;
     height: 22.5vh;
     object-fit: cover;
 }
 
-.Sec2-Area-interes .texto { 
+.Sec-Contenido-bloques-tip1 .texto { 
     text-align: start;
     position: absolute;
     bottom: 0;
@@ -1460,13 +1463,13 @@ footer h6{
     color: white;
 }
 
-.Sec2-Area-interes .texto h4{
+.Sec-Contenido-bloques-tip1 .texto h4{
     font-size: 4vw;
     margin: 0vh 5vw 1vh 2vw;
     color: white;
 }
 
-.Sec2-Area-interes .texto p{
+.Sec-Contenido-bloques-tip1 .texto p{
     font-size: 3vw;
     color: rgb(221, 221, 221);
     margin: 0vh 7vw 0vh 2vw;
@@ -1643,24 +1646,25 @@ footer h6{
 
 
 /*------------------Contenido-blog-------------------*/
-.Sec4-Contenido-blog{
+
+.Sec-Contenido-bloques-tip2{
     text-align: start;
     margin: 4vh 4vw 0vh 4vw;
     z-index: 0;
 }
 
-.Sec4-Contenido-blog h2{
+.Sec-Contenido-bloques-tip2 h2{
     font-size: 7vw;
     margin: 0vh 0vw 1vh 0vw;
 }
 
-.Sec4-Contenido-blog p{
+.Sec-Contenido-bloques-tip2 p{
     color: rgb(87, 87, 87);
     font-size: 3.5vw;
     margin: 0vh 4vw 2vh 0vw;
 }
 
-.cont-Contenido-blog{
+.cont-Contenido-bloques-tip2{
     display: block;
     justify-content: center;
     gap: 1vw;
@@ -1668,7 +1672,7 @@ footer h6{
     height: 100%;
 }
 
-.cont-elemen{
+.cont-elementos-tip2{
     display: block;
     justify-content: center;
     gap: 1vw;
@@ -1676,7 +1680,7 @@ footer h6{
     height: 100%;
 }
 
-.elemen{
+.elementos-tip2{
     display: flex;
     justify-content: center;
     gap: 2vw;
@@ -1684,7 +1688,7 @@ footer h6{
     height: 100%;
 }
 
-.contenedor1, .contenedor2, .contenedor3, .contenedor4 { 
+.bloque1-tip2, .bloque2-tip2, .bloque3-tip2, .bloque4-tip2 { 
     border-radius: 2vw;
     position: relative;
     overflow: hidden;
@@ -1693,49 +1697,49 @@ footer h6{
     transition: 0.3s;
 }
 
-.contenedor1{ 
+.bloque1-tip2{ 
   margin: 0vh 0vw 1vh 0vw;
 }
 
-.contenedor2{ 
+.bloque2-tip2{ 
   margin: 1vh 0vw 0vh 0vw;
 }
 
-.contenedor1:hover, .contenedor2:hover, .contenedor3:hover, .contenedor4:hover{ 
+.bloque1-tip2:hover, .bloque2-tip2:hover, .bloque3-tip2:hover, .bloque4-tip2:hover{ 
     opacity: 90%;
 }
 
-.contenedor1 img{
+.bloque1-tip2 img{
     width: 100%;
     height: 20vh;
     object-fit: cover;
 }
 
-.contenedor1 video {
+.bloque1-tip2 video {
     width: 100%;
     height: 20vh;
     object-fit: cover;
 }
 
-.contenedor2 img{
+.bloque2-tip2 img{
     width: 100%;
     height: 20vh;
     object-fit: cover;
 }
 
-.contenedor3 img{
+.bloque3-tip2 img{
     width: 100%;
     height: 20vh;
     object-fit: cover;
 }
 
-.contenedor4 img{
+.bloque4-tip2 img{
     width: 100%;
     height: 20vh;
     object-fit: cover;
 }
 
-.Sec4-Contenido-blog .texto { 
+.Sec-Contenido-bloques-tip2 .texto { 
     text-align: start;
     position: absolute;
     bottom: 0;
@@ -1745,19 +1749,19 @@ footer h6{
     color: white;
 }
 
-.Sec4-Contenido-blog .texto h4{
+.Sec-Contenido-bloques-tip2 .texto h4{
     font-size: 4vw;
     margin: 2.5vh 5vw 1vh 2vw;
     color: white;
 }
 
-.Sec4-Contenido-blog .texto p{
+.Sec-Contenido-bloques-tip2 .texto p{
     font-size: 3vw;
     color: rgb(221, 221, 221);
     margin: 0vh 5vw 0vh 2vw;
 }
 
-.Sec4-Contenido-blog .texto small{
+.Sec-Contenido-bloques-tip2 .texto small{
     font-size: 2.5vw;
     font-weight: 700;
     border-radius: 6vw;
@@ -1767,25 +1771,25 @@ footer h6{
 
 /*------------------Contenido-Enfoque-----------------*/
 
-.Contenido-Enfoques{
+.Sec-Contenido-bloques-tip3{
     text-align: start;
     margin: 3vh 4vw 1vh 4vw;
     z-index: 0;
 }
 
-.Contenido-Enfoques h2{
+.Sec-Contenido-bloques-tip3 h2{
     color: #000000;
     font-size: 7vw;
     margin: 0vh 0vw 1vh 0vw;
 }
 
-.Contenido-Enfoques p{
+.Sec-Contenido-bloques-tip3 p{
     color: rgb(87, 87, 87);
     font-size: 3.5vw;
     margin: 0vh 4vw 2vh 0vw;
 }
 
-.cont-Contenido-Enfoques{
+.cont-Contenido-bloques-tip3{
     display: block;
     justify-content: center;
     gap: 1vw;
@@ -1793,7 +1797,7 @@ footer h6{
     height: 100%;
 }
 
-.cont-elemen{
+.cont-elementos-tip3{
     display: block;
     justify-content: center;
     gap: 0vw;
@@ -1801,7 +1805,7 @@ footer h6{
     height: 100%;
 }
 
-.elemen{
+.elementos-tip3{
     display: flex;
     justify-content: center;
     gap: 2vw;
@@ -1809,7 +1813,7 @@ footer h6{
     height: 100%;
 }
 
-.enfoque1, .enfoque2, .enfoque3 { 
+.bloques1-tip3, .bloques2-tip3, .bloques3-tip3 { 
     border-radius: 3vw;
     position: relative;
     overflow: hidden;
@@ -1818,29 +1822,29 @@ footer h6{
     transition: 0.3s;
 }
 
-.enfoque1{ 
+.bloques1-tip3{ 
     width: 100%;
     height: 100%;
     margin: 0vh 0vw 1vh 0vw;
 }
 
-.enfoque1:hover, .enfoque2:hover, .enfoque3:hover{ 
+.bloques1-tip3:hover, .bloques2-tip3:hover, .bloques3-tip3:hover{ 
     opacity: 90%;
 }
 
-.enfoque1 img, .enfoque2 img, .enfoque3 img{
+.bloques1-tip3 img, .bloques2-tip3 img, .bloques3-tip3 img{
     width: 100%;
     height: 20vh;
     object-fit: cover;
 }
 
-.enfoque1 video {
+.bloques1-tip3 video {
     width: 100%;
     height: 50vh;
     object-fit: cover;
 }
 
-.Contenido-Enfoques .texto { 
+.Sec-Contenido-bloques-tip3 .texto { 
     text-align: start;
     position: absolute;
     bottom: 0;
@@ -1850,13 +1854,13 @@ footer h6{
     color: white;
 }
 
-.Contenido-Enfoques .texto h4{
+.Sec-Contenido-bloques-tip3 .texto h4{
     font-size: 4vw;
     margin: 0vh 4vw 1vh 0vw;
     color: white;
 }
 
-.Contenido-Enfoques .texto p{
+.Sec-Contenido-bloques-tip3 .texto p{
     font-size: 3vw;
     color: rgb(221, 221, 221);
     margin: 0vh 7vw 2vh 0vw;

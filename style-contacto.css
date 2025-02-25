@@ -319,25 +319,26 @@ body{
 
 
 /*------------------Contenido-soporte-Atención-----------------*/
-.Contenido-soporte{
+
+.Sec-Contenido-bloques-tip3{
     text-align: start;
     margin: 10vh 4vw 0vh 4vw;
     z-index: 0;
 }
 
-.Contenido-soporte h2{
+.Sec-Contenido-bloques-tip3 h2{
     color: #000000;
     font-size: 3vw;
     margin: 0vh 0vw 2.2vh 0vw;
 }
 
-.Contenido-soporte p{
+.Sec-Contenido-bloques-tip3 p{
     color: rgb(87, 87, 87);
     font-size: 1.3vw;
     margin: 0vh 4vw 3vh 0vw;
 }
 
-.cont-Contenido-soporte{
+.cont-Contenido-bloques-tip3{
     display: flex;
     justify-content: center;
     gap: 1vw;
@@ -345,7 +346,7 @@ body{
     height: 100%;
 }
 
-.cont-elemen{
+.cont-elementos-tip3{
     display: block;
     justify-content: center;
     gap: 0vw;
@@ -353,7 +354,7 @@ body{
     height: 100%;
 }
 
-.elemen{
+.elementos-tip3{
     display: flex;
     justify-content: center;
     gap: 1vw;
@@ -361,7 +362,7 @@ body{
     height: 100%;
 }
 
-.soporte1, .soporte3, .soporte4 { 
+.bloques1-tip3, .bloques2-tip3, .bloques3-tip3 { 
     border-radius: 1vw;
     position: relative;
     overflow: hidden;
@@ -370,29 +371,29 @@ body{
     transition: 0.3s;
 }
 
-.soporte1{ 
+.bloques1-tip3{ 
     width: 80vw;
     height: 100%;
     margin: 0vh 0vw 0vh 0vw;
 }
 
-.soporte1:hover, .soporte3:hover, .soporte4:hover{ 
+.bloques1-tip3:hover, .bloques2-tip3:hover, .bloques3-tip3:hover{ 
     opacity: 90%;
 }
 
-.soporte1 img, .soporte3 img, .soporte4 img{
+.bloques1-tip3 img, .bloques2-tip3 img, .bloques3-tip3 img{
     width: 100%;
     height: 40vh;
     object-fit: cover;
 }
 
-.soporte1 video {
+.bloques1-tip3 video {
     width: 100%;
     height: 50vh;
     object-fit: cover;
 }
 
-.Contenido-soporte .texto { 
+.Sec-Contenido-bloques-tip3 .texto { 
     text-align: start;
     position: absolute;
     bottom: 0;
@@ -402,18 +403,17 @@ body{
     color: white;
 }
 
-.Contenido-soporte .texto h4{
+.Sec-Contenido-bloques-tip3 .texto h4{
     font-size: 1.6vw;
     margin: 0vh 4vw 1.5vh 0vw;
     color: white;
 }
 
-.Contenido-soporte .texto p{
+.Sec-Contenido-bloques-tip3 .texto p{
     font-size: 1.2vw;
     color: rgb(221, 221, 221);
     margin: 0vh 3vw 2vh 0vw;
 }
-
 
 
 /*--------------------------------------------------------------------------*/
@@ -736,25 +736,26 @@ footer h6{
 
 
 /*------------------Contenido-soporte-Atención-----------------*/
-.Contenido-soporte{
+
+.Sec-Contenido-bloques-tip3{
     text-align: start;
-    margin: 3vh 4vw 0vh 4vw;
+    margin: 3vh 4vw 1vh 4vw;
     z-index: 0;
 }
 
-.Contenido-soporte h2{
+.Sec-Contenido-bloques-tip3 h2{
     color: #000000;
-    font-size: 6vw;
+    font-size: 7vw;
     margin: 0vh 0vw 1vh 0vw;
 }
 
-.Contenido-soporte p{
+.Sec-Contenido-bloques-tip3 p{
     color: rgb(87, 87, 87);
     font-size: 3.5vw;
     margin: 0vh 4vw 2vh 0vw;
 }
 
-.cont-Contenido-soporte{
+.cont-Contenido-bloques-tip3{
     display: block;
     justify-content: center;
     gap: 1vw;
@@ -762,7 +763,7 @@ footer h6{
     height: 100%;
 }
 
-.cont-elemen{
+.cont-elementos-tip3{
     display: block;
     justify-content: center;
     gap: 0vw;
@@ -770,7 +771,7 @@ footer h6{
     height: 100%;
 }
 
-.elemen{
+.elementos-tip3{
     display: flex;
     justify-content: center;
     gap: 2vw;
@@ -778,7 +779,7 @@ footer h6{
     height: 100%;
 }
 
-.soporte1, .soporte3, .soporte4 { 
+.bloques1-tip3, .bloques2-tip3, .bloques3-tip3 { 
     border-radius: 3vw;
     position: relative;
     overflow: hidden;
@@ -787,29 +788,29 @@ footer h6{
     transition: 0.3s;
 }
 
-.soporte1{ 
+.bloques1-tip3{ 
     width: 100%;
     height: 100%;
     margin: 0vh 0vw 1vh 0vw;
 }
 
-.soporte1:hover, .soporte3:hover, .soporte4:hover{ 
+.bloques1-tip3:hover, .bloques2-tip3:hover, .bloques3-tip3:hover{ 
     opacity: 90%;
 }
 
-.soporte1 img, .soporte3 img, .soporte4 img{
+.bloques1-tip3 img, .bloques2-tip3 img, .bloques3-tip3 img{
     width: 100%;
     height: 20vh;
     object-fit: cover;
 }
 
-.soporte1 video {
+.bloques1-tip3 video {
     width: 100%;
     height: 50vh;
     object-fit: cover;
 }
 
-.Contenido-soporte .texto { 
+.Sec-Contenido-bloques-tip3 .texto { 
     text-align: start;
     position: absolute;
     bottom: 0;
@@ -819,16 +820,16 @@ footer h6{
     color: white;
 }
 
-.Contenido-soporte .texto h4{
+.Sec-Contenido-bloques-tip3 .texto h4{
     font-size: 4vw;
     margin: 0vh 4vw 1vh 0vw;
     color: white;
 }
 
-.Contenido-soporte .texto p{
+.Sec-Contenido-bloques-tip3 .texto p{
     font-size: 3vw;
     color: rgb(221, 221, 221);
-    margin: 0vh 3vw 2vh 0vw;
+    margin: 0vh 7vw 2vh 0vw;
 }
 
 
