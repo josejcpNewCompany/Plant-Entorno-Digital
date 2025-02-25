@@ -255,7 +255,7 @@ body{
 .ico-parametros{
   align-items: center;
   display: flex;
-  margin: 0vh 0vw 3vh 0vw;
+  margin: 4vh 0vw 0vh 0vw;
 }
 
 .ico-parametros h5{
@@ -279,7 +279,7 @@ body{
 }
 
 .cont-parametros ul{
-  margin: 5vh 0vw 5vh 0vw;
+  margin: 3vh 0vw 5vh 0vw;
   padding: 1vh 2vw 3vh 3vw;
   background: #f8f8f8;
   border-radius: 1vw;
@@ -594,7 +594,7 @@ margin: 0vh 0vw 0vh 0vw;
   .cont-inf-servicio h1{
     font-size: 7vw;
     color: rgb(0, 0, 0);
-    margin: 1vh 0vw 1vh 0vw;
+    margin: 3vh 0vw 1vh 0vw;
   }
   
   .cont-inf-servicio h4{
