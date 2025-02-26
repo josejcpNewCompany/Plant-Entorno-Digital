@@ -961,14 +961,14 @@ body{
 
 .redes{
     text-align: start;
-    font-size: 1.5vw;
     margin: 5vh 0vw 2.5vh 0vw;
 }
 
 .cont-redes{
-    gap: 1.5vw;
+    gap: 1.3vw;
     display: flex;
     margin: 2vh 0vw 2vh 0vw;
+    text-align: start;
 }
 
 .ico-redes{
@@ -980,7 +980,7 @@ body{
 
 .cont-redes a{
     color: #000000;
-    font-size: 1.3vw;
+    font-size: 1.2vw;
     text-decoration: none;
 }
 
