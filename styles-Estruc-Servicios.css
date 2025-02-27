@@ -155,7 +155,7 @@ body{
 
 .cont-Beneficios h6{
   font-size: 1.4vw;
-  color: rgb(0, 132, 255);
+  color: #00a824 ;
   margin: 3vh 0vw 0vh -2vw;
 }
 
@@ -215,7 +215,7 @@ body{
   padding: 1vh 2vw 1vh 3vw;
   background: #f8f8f8;
   border-radius: 1vw;
-  border-left: 5px solid rgb(0, 132, 255);
+  border-left: 5px solid #00a824 ;
 }
 
 .negro ul, ol{
@@ -248,7 +248,7 @@ body{
 
 .cont-parametros h6{
   font-size: 1.4vw;
-  color: #00a824 ;
+  color: rgb(0, 132, 255);
   margin: 3vh 0vw 0vh -2vw;
 }
 
@@ -283,7 +283,7 @@ body{
   padding: 1vh 2vw 3vh 3vw;
   background: #f8f8f8;
   border-radius: 1vw;
-  border-left: 5px solid #00a824 ;
+  border-left: 5px solid rgb(0, 132, 255);
 }
 
 .cont-parametros li{
