@@ -291,6 +291,7 @@ body{
     display: flex;
     gap: 2vw;
     align-items: center;
+    min-width: 38vw;
     padding: 4vh 2vw 1vh 2vw;
     border-radius: 1vw;
     background: rgb(245, 245, 245);
