@@ -266,6 +266,73 @@ body{
 }
 
 
+  /*------------------Contenido-Publicidad-------------------*/
+  .publicidad{
+    text-align: start;
+    margin: 0vh 4vw 2vh 4vw;
+    padding: 0vh 0vw 0vh 0vw;
+    z-index: 0;
+    }
+    
+    .publicidad h6{
+    color: black;
+    font-size: 1.5vw;
+    margin: 0vh 0vw 2.2vh 0vw;
+    }
+    
+    .publicidad p{
+    color: rgb(87, 87, 87);
+    font-size: 1.3vw;
+    margin: 0vh 4vw 3vh 0vw;
+    }
+    
+    .publicidad1 { 
+    border-radius: 1vw;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+    }
+    
+    .publicidad1:hover{ 
+    opacity: 90%;
+    }
+    
+    .publicidad1 img{
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    }
+    
+    .publicidad1 video {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    }
+    
+    .publicidad .texto { 
+    text-align: start;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 25vh 4vw 3vh 1.5vw ;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.788));
+    color: white;
+    }
+    
+    .publicidad .texto h4{
+    font-size: 1.6vw;
+    margin: 0vh 4vw 1.5vh 0vw;
+    color: white;
+    }
+    
+    .publicidad .texto p{
+    font-size: 1.2vw;
+    color: rgb(221, 221, 221);
+    margin: 0vh 2vw 2vh 0vw;
+    }
+
 /*---------------------------------------------------------------------*/
 
 .gallery-item {
@@ -602,6 +669,75 @@ footer h6{
     .indice a:hover{
         text-decoration: underline;
     }
+
+
+    /*------------------Contenido-Publicidad-------------------*/
+    .publicidad{
+        text-align: start;
+        margin: -5vh 4vw 2vh 4vw;
+        padding: 0vh 0vw 0vh 0vw;
+        z-index: 0;
+        }
+        
+        .publicidad h6{
+        color: black;
+        font-size: 5vw;
+        margin: 0vh 0vw 2vh 0vw;
+        }
+        
+        .publicidad p{
+        color: rgb(87, 87, 87);
+        font-size: 3.5vw;
+        margin: 0vh 4vw 3vh 0vw;
+        }
+        
+        .publicidad1 { 
+        border-radius: 2vw;
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        transition: 0.3s;
+        }
+        
+        .publicidad1:hover{ 
+        opacity: 90%;
+        }
+        
+        .publicidad1 img{
+        width: 100%;
+        height: 20vh;
+        object-fit: cover;
+        }
+        
+        .publicidad1 video {
+        width: 100%;
+        height: 20vh;
+        object-fit: cover;
+        }
+        
+        .publicidad .texto { 
+        text-align: start;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        padding: 25vh 4vw 3vh 3vw ;
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.788));
+        color: white;
+        }
+        
+        .publicidad .texto h4{
+        font-size: 4vw;
+        margin: 0vh 4vw 1vh 0vw;
+        color: white;
+        }
+        
+        .publicidad .texto p{
+        font-size: 3vw;
+        color: rgb(221, 221, 221);
+        margin: 0vh 2vw 0vh 0vw;
+        }
+
     
     /*---------------------------------------------------------------------*/
     
