@@ -653,12 +653,12 @@ margin: 0vh 0vw 0vh 0vw;
     }
   
     .contenedor-pequeno {
-      width: 2rem;
-      min-width: 2vw;
-      max-width: 2rem;
-      height: 2rem;
-      min-height: 2vw;
-      max-height: 2rem;
+      width: 3rem;
+      min-width: 3vw;
+      max-width: 3rem;
+      height: 3rem;
+      min-height: 3vw;
+      max-height: 3rem;
         margin: 0vh 0vw 0vh 0vw;
         border-radius: 1vw;
         overflow: hidden;

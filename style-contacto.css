@@ -90,9 +90,9 @@ body{
 
 .login img{
     background-color: rgb(255, 255, 255); /* Color del botón */
-    width: 1.5rem;
-    min-width: 1.5vw;
-    max-width: 1.5rem;
+    width: 1.6rem;
+    min-width: 1.6vw;
+    max-width: 1.6rem;
     border-radius: 10vw;
     margin: 0vh 0vw 0vh 0vw;
 }
