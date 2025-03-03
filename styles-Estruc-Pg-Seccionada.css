@@ -270,7 +270,7 @@ p{
     max-width: 17vw;
     min-height: 100%;
     text-align: center;
-    padding: 0vh 0vw 2vh 0vw;
+    padding: 0vh 2vw 2vh 2vw;
   }
 
   .canal h5{
@@ -901,7 +901,9 @@ p{
 
   .canal{
     text-align: center;
-    min-width: 40vw;
+    width: 35vw;
+    min-width: 30vw;
+    padding: 0vh 4vw 0vh 4vw;
   }
 
   .canal img{
