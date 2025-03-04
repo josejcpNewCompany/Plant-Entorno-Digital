@@ -751,8 +751,8 @@ footer h6{
     position: relative;
     height: 100%;
     overflow: hidden;
-    border: 4vw;
-    margin: 7vh 3vw 0vh 3vw;
+    border-radius: 4vw;
+    margin: 6.5vh 3vw 0vh 3vw;
     transition: 0.3s;
 }
 
@@ -766,7 +766,7 @@ footer h6{
 
 .carousel img{
     width: 100%;
-    height: 25vh;
+    height: 20vh;
     object-fit: cover;
 }
 
@@ -1019,7 +1019,7 @@ background: none;
     position: relative;
     overflow: hidden;
     width: 50vw;
-    height: 30vh;
+    height: 25vh;
     transition: 0.3s;
 }
 
@@ -1053,20 +1053,20 @@ background: none;
 
 .texto h4{
     font-size: 3.5vw;
-    margin: 0vh 5vw 1vh 0vw;
+    margin: 0vh 8vw 1vh 0vw;
     color: white;
 }
 
 .texto h3{
     font-size: 2.5vw;
-    margin: 0vh 5vw 0vh 0vw;
+    margin: 0vh 8vw 0vh 0vw;
     color: white;
 }
 
 .texto p{
     font-size: 3vw;
     color: rgb(221, 221, 221);
-    margin: 0vh 5vw 0vh 0vw;
+    margin: 0vh 8vw 0vh 0vw;
 }
 
 .cont-img-noticia{
@@ -1088,8 +1088,8 @@ background: none;
     border-radius: 3vw;
     position: relative;
     overflow: hidden;
-    width: 50vw;
-    height: 30vh;
+    width: 60vw;
+    height: 40vh;
     transition: 0.3s;
 }
 

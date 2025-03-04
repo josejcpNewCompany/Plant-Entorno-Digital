@@ -264,6 +264,12 @@ p{
     margin: 3vh 0vw 0vh 0vw;
   }
 
+  .mega img{
+    width: 3.5rem;
+    min-width: 3.5vw;
+    max-width: 3.5rem;
+  }
+
 
   .canal{
     overflow: none;
@@ -896,6 +902,11 @@ p{
     height: 1.5rem;
     width: 1.5rem;
     margin: 2vh 0vw 0vh 0vw;
+  }
+
+  .mega img{
+    height: 3rem;
+    width: 3rem;
   }
 
 
