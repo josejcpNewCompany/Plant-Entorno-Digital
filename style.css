@@ -1500,7 +1500,7 @@ footer h6{
 }
 
 .servicio{
-    width: 70vw;
+    width: 80vw;
     overflow: hidden;
     border-radius: 6vw;
     margin: 0vh 0vw 0vh 0vw;
@@ -1555,7 +1555,7 @@ footer h6{
 
 
 .Plan{
-    width: 70vw;
+    width: 75vw;
     border-radius: 6vw;
     margin: 0vh 0vw 0vh 0vw;
     padding: 0vh 0vw 0vh 0vw;
@@ -2014,7 +2014,7 @@ footer h6{
     overflow-x: auto;
     scroll-behavior: smooth;
     border: 0px solid #f0f0f0;
-    padding: 0px;
+    padding: 0vh 0vw 0vh 0vw;
     border-radius: 3vw;
     margin: 0vh 0vw 0vh 0vw;
 }
