@@ -635,7 +635,7 @@ p{
   /*------------------Contenido-Publicidad-------------------*/
   .publicidad{
   text-align: start;
-  margin: 3vh 4vw 2vh 4vw;
+  margin: 1vh 4vw 2vh 4vw;
   padding: 0vh 0vw 0vh 0vw;
   z-index: 0;
   }
@@ -710,6 +710,23 @@ p{
   
   footer h6{ 
   margin: 0vh 0vw 0vh 0vw;
+  }
+
+  .enlaces-princiáles{
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+    margin: 3vh 0vw 5vh 0vw;
+  }
+  
+  .enlaces-princiáles a{
+    font-size: 1.2vw;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .enlaces-princiáles a:hover{
+    text-decoration: underline;
   }
   
   /*---------------------------------------------------------------------*/
@@ -1367,6 +1384,23 @@ p{
   
   footer h6{ 
     margin: 0vh 0vw 0vh 0vw;
+  }
+
+  .enlaces-princiáles{
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+    margin: 1.5vh 2vw 3vh 2vw;
+  }
+  
+  .enlaces-princiáles a{
+    font-size: 2.5vw;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .enlaces-princiáles a:hover{
+    text-decoration: underline;
   }
   
   /*---------------------------------------------------------------------*/

@@ -134,7 +134,7 @@ body{
 
 .Sec-Contenido-bloques-tip1{
     text-align: start;
-    margin: 10vh 4vw 0vh 4vw;
+    margin: 12vh 4vw 0vh 4vw;
     z-index: 0;
 }
 
@@ -866,9 +866,9 @@ footer h6{
 }
 
 .login img{
-    width: 1.3rem;
-    min-width: 1.5vw;
-    max-width: 1.3rem;
+    width: 1.6rem;
+    min-width: 1.6vw;
+    max-width: 1.6rem;
     border-radius: 50%;
     margin: 0vh 0vw 0vh 0vw;
 }
