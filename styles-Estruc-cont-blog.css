@@ -412,32 +412,33 @@ body{
 
 /*---------------------------------------------------------------------*/
 
-footer { 
-    text-align: center;
-    margin: 5vh 0vw 0vh 0vw;
-    opacity: 50%;
-}
+  footer { 
+  text-align: center;
+  margin: 3vh 0vw 5vh 0vw;
+  opacity: 80%;
+  }
+  
+  footer h6{ 
+  margin: 0vh 0vw 0vh 0vw;
+  }
 
-footer h6{ 
-    margin: 0vh 0vw 0vh 0vw;
-}
-
-.enlaces-princiáles{
+  .enlaces-princiáles{
     display: flex;
     justify-content: center;
     gap: 3vw;
     margin: 3vh 0vw 5vh 0vw;
-}
-
-.enlaces-princiáles a{
+  }
+  
+  .enlaces-princiáles a{
     font-size: 1.2vw;
     font-weight: 600;
     text-decoration: none;
-}
-
-.enlaces-princiáles a:hover{
+    color: #000000;
+  }
+  
+  .enlaces-princiáles a:hover{
     text-decoration: underline;
-}
+  }
 
 /*---------------------------------------------------------------------*/
 
@@ -837,7 +838,6 @@ footer h6{
     footer { 
         text-align: center;
         margin: 0vh 0vw 3vh 0vw;
-        opacity: 50%;
     }
     
     footer h6{ 

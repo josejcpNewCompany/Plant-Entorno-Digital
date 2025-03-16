@@ -37,7 +37,7 @@ p{
   }
 
   .Estruc-Pg-Seccionada hr{
-    margin: 2vh 4vw 0vh 4vw;
+    margin: 3vh 4vw 2vh 4vw;
     opacity: 20%;
   }
 
@@ -48,7 +48,7 @@ p{
   }
 
   .cabezera img{
-    height: 30vh;
+    height: 40vh;
     width: 100%;
     object-fit: cover;
   }
@@ -120,8 +120,8 @@ p{
   }
 
   .descrip-Pg-Seccionada h3{
-    font-size: 2.3vw;
-    margin: 3vh 0vw 0vh 0vw;
+    font-size: 1.8vw;
+    margin: 8vh 0vw 0vh 0vw;
   }
 
   .descrip-Pg-Seccionada h4{
@@ -153,13 +153,34 @@ p{
   }
 
   .Demostrativo{
-    background: rgb(248, 248, 248);
+    background: rgba(248, 248, 248, 0.932);
     border-left: 3px solid rgb(0, 0, 0);
   }
 
   .Restricciones{
     background: rgb(255, 237, 237);
     border-left: 3px solid rgb(192, 0, 0);
+  }
+
+  .limpio{
+    background: none;
+    border-left: none;
+    padding: 1vh 0vw 1vh 0vw;
+    margin: 4vh 0vw 1vh 0vw;
+  }
+
+  .puntos-clave h4{
+    font-size: 1.8vw;
+    margin: 0vh 0vw 3vh 0vw;
+  }
+
+  .puntos-clave h5{
+    font-size: 1.5vw;
+    margin: 5vh 0vw 3vh 0vw;
+  }
+
+  .separador{
+    margin: 8vh 0vw 0vh 0vw;
   }
 
   .puntos-clave ul, ol{
@@ -543,7 +564,7 @@ p{
   /*-----------Descripcion-Indice-Pg-Seccionada-----------*/
 
   .indice-busqueda{
-    width: 55vw;
+    width: 60vw;
     margin: 4vh 0vw 0vh 2.5vw;
   }
 
@@ -705,7 +726,7 @@ p{
   footer { 
   text-align: center;
   margin: 3vh 0vw 5vh 0vw;
-  opacity: 50%;
+  opacity: 80%;
   }
   
   footer h6{ 
@@ -723,6 +744,7 @@ p{
     font-size: 1.2vw;
     font-weight: 600;
     text-decoration: none;
+    color: #000000;
   }
   
   .enlaces-princiáles a:hover{
@@ -805,8 +827,8 @@ p{
   }
 
   .descrip-Pg-Seccionada h3{
-    font-size: 6vw;
-    margin: 3vh 0vw 0vh 0vw;
+    font-size: 4.5vw;
+    margin: 4vh 0vw 0vh 0vw;
   }
 
   .descrip-Pg-Seccionada h4{
@@ -830,6 +852,20 @@ p{
     margin: 3vh 0vw 4vh 0vw;
   }
 
+  .puntos-clave h4{
+    font-size: 4.8vw;
+    margin: 2vh 0vw 1.5vh 0vw;
+  }
+
+  .puntos-clave h5{
+    font-size: 4vw;
+    margin: 4vh 0vw 1.5vh 0vw;
+  }
+
+  .separador{
+    margin: 5vh 0vw 0vh 0vw;
+  }
+
   .puntos-clave ul, ol{
     font-size: 3.5vw;
     margin: 0vh 0vw 0vh 0vw;
@@ -850,6 +886,11 @@ p{
     object-fit: cover;
     border-radius: 2vw;
     margin: 2vh 0vw 1vh 0vw;
+  }
+
+  .limpio{
+    padding: 1vh 0vw 1vh 0vw;
+    margin: 1vh 1vw 0vh -2vw;
   }
 
 
@@ -1379,7 +1420,6 @@ p{
     footer { 
     text-align: center;
     margin: 0vh 0vw 3vh 0vw;
-    opacity: 50%;
   }
   
   footer h6{ 
