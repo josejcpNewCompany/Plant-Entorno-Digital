@@ -428,8 +428,8 @@ background: none;
     border-radius: 1vw;
     position: relative;
     overflow: hidden;
-    width: 28vw;
-    height: 35vh;
+    width: 20vw;
+    height: 45vh;
     transition: 0.3s;
 }
 
@@ -1018,7 +1018,7 @@ background: none;
     border-radius: 3vw;
     position: relative;
     overflow: hidden;
-    width: 50vw;
+    width: 60vw;
     height: 30vh;
     transition: 0.3s;
 }

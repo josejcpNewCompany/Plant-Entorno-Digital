@@ -121,7 +121,7 @@ p{
 
   .descrip-Pg-Seccionada h3{
     font-size: 1.8vw;
-    margin: 8vh 0vw 0vh 0vw;
+    margin: 3vh 0vw 0vh 0vw;
   }
 
   .descrip-Pg-Seccionada h4{
@@ -166,7 +166,7 @@ p{
     background: none;
     border-left: none;
     padding: 1vh 0vw 1vh 0vw;
-    margin: 4vh 0vw 1vh 0vw;
+    margin: 4vh 0vw 1vh -1vw;
   }
 
   .puntos-clave h4{
@@ -294,23 +294,27 @@ p{
 
   .canal{
     overflow: none;
-    max-width: 17vw;
+    max-width: 15vw;
     min-height: 100%;
     text-align: center;
-    padding: 0vh 2vw 2vh 2vw;
+    padding: 0vh 1vw 2vh 1vw;
+  }
+
+  .canal:hover{
+    opacity: 100%;
   }
 
   .canal h5{
     width: 100%;
-    color: black;
-    font-size: 1.5vw;
+    color: rgb(0, 0, 0);
+    font-size: 1.3vw;
     margin: 2.5vh 0vw 1.5vh 0vw;
   }
 
   .canal span{
     width: 100%;
-    color: rgb(0, 89, 255);
-    font-size: 1.8vw;
+    color: rgb(0, 0, 0);
+    font-size: 1.5vw;
     font-weight: 700;
     line-height: 1;
     margin: 0vh 0vw 0vh 0vw;
@@ -564,8 +568,8 @@ p{
   /*-----------Descripcion-Indice-Pg-Seccionada-----------*/
 
   .indice-busqueda{
-    width: 60vw;
-    margin: 4vh 0vw 0vh 2.5vw;
+    width: 40vw;
+    margin: 4vh 0vw 0vh 3.5vw;
   }
 
   .indice-busqueda a{
@@ -574,12 +578,12 @@ p{
 
   .indice-busqueda h4{
     font-size: 1.8vw;
-    margin: 0vh 0vw 2vh 2vw;
+    margin: 0vh 0vw 2vh 0vw;
   }
 
   .indice-busqueda ul{
     font-size: 1.3vw;
-    margin: 0vh 0vw 0vh 0vw;
+    margin: 0vh 0vw 0vh -2vw;
   }
 
   .indice-busqueda li{
@@ -656,7 +660,7 @@ p{
   /*------------------Contenido-Publicidad-------------------*/
   .publicidad{
   text-align: start;
-  margin: 1vh 4vw 2vh 4vw;
+  margin: 0vh 4vw 2vh 4vw;
   padding: 0vh 0vw 0vh 0vw;
   z-index: 0;
   }
@@ -854,7 +858,7 @@ p{
 
   .puntos-clave h4{
     font-size: 4.8vw;
-    margin: 2vh 0vw 1.5vh 0vw;
+    margin: 0vh 0vw 1.5vh 0vw;
   }
 
   .puntos-clave h5{
@@ -890,7 +894,7 @@ p{
 
   .limpio{
     padding: 1vh 0vw 1vh 0vw;
-    margin: 1vh 1vw 0vh -2vw;
+    margin: 1vh 1vw 0vh -3vw;
   }
 
 
@@ -984,14 +988,12 @@ p{
 
   .canal h5{
     width: 100%;
-    color: black;
-    font-size: 3.5vw;
-    margin: 1vh 0vw 1vh 0vw;
+    font-size: 3.8vw;
+    margin: 1vh 0vw 0.5vh 0vw;
   }
 
   .canal span{
     width: 100%;
-    color: rgb(0, 89, 255);
     font-size: 4.5vw;
     font-weight: 700;
     line-height: 1;

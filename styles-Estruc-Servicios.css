@@ -95,8 +95,8 @@ body{
 
   .contenedor-grande {
     background: #f1f1f1;
-    width: 25rem;
-    height: 25rem;
+    width: 36vw;
+    height: 36vw;
     border-radius: 0.8vw;
     overflow: hidden;
     margin: 0vh 0vw 0vh 0vw;
@@ -561,6 +561,7 @@ footer {
   }
   
   footer h6{ 
+  font-size: 1vw;
   margin: 0vh 0vw 0vh 0vw;
   }
 
